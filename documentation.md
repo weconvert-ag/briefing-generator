@@ -2,71 +2,49 @@
 
 ## Overview
 
-This plugin generates structured briefing layouts automatically inside Figma using pure JavaScript.
+This plugin generates structured A/B test briefing layouts inside Figma. Users fill in a form panel with test details, and the plugin programmatically creates a complete briefing frame using the Figma Plugin API.
 
-Instead of manually creating frames, rectangles, text blocks, and layouts, the plugin creates them programmatically using the Figma Plugin API.
-
-This enables automation, scalability, and future integration with AI systems.
+The generated layout includes:
+- A navy title bar with the test name
+- A navy sidebar with hypothesis, identified problems, proposals, behavioral reasons, metrics, and URL
+- Two screenshot placeholder columns (CONTROL and REFERENCE)
+- A WeConvert logo badge (bottom-right)
 
 ---
 
 # Architecture
 
-The system consists of:
-
 ```
-Figma
- └── Plugin
-      └── code.js
-           └── Uses Figma Plugin API
-                └── Creates frames, text, and shapes
-```
-
-Future architecture with AI:
-
-```
-User input / AI agent
+User opens plugin
         ↓
-Structured JSON
+UI form panel (ui.html) appears
         ↓
-Figma Plugin (code.js)
+User fills in fields and clicks "Generate Briefing"
         ↓
-Figma layout generated automatically
+UI sends data via parent.postMessage()
+        ↓
+code.js receives message via figma.ui.onmessage
+        ↓
+Plugin creates frames, text, shapes, and images
+        ↓
+Briefing layout appears on canvas
 ```
-
----
-
-# Core Concepts
-
-## Figma Plugin API
-
-The Figma Plugin API allows programmatic creation and manipulation of design elements.
-
-Examples of elements you can create:
-
-* Frame
-* Rectangle
-* Text
-* Image
-* Components
-* Auto layout containers
-
-Official reference:
-https://www.figma.com/plugin-docs/
 
 ---
 
 # File Structure
 
-Minimal plugin structure:
-
 ```
-briefing-generator/
+Briefing Generator/
 │
-├── manifest.json
-├── code.js
-└── documentation.md
+├── manifest.json       ← Plugin config (tells Figma what to load)
+├── code.js             ← Main plugin logic (layout generation)
+├── ui.html             ← Form UI panel shown inside Figma
+├── wc-logo.png         ← WeConvert logo source file
+└── documentation.md    ← This file
 ```
+
+> **Note:** The root-level files are copies kept in sync with the `Briefing Generator/` subfolder. Figma loads from the subfolder.
 
 ---
 
@@ -74,170 +52,159 @@ briefing-generator/
 
 Defines how Figma loads the plugin.
 
-Example:
-
 ```json
 {
   "name": "Briefing Generator",
-  "id": "briefing-generator",
+  "id": "1607226209691497768",
   "api": "1.0.0",
   "main": "code.js",
+  "ui": "ui.html",
   "editorType": ["figma"]
 }
 ```
 
 Key fields:
 
-* name → plugin name shown in Figma
-* main → entry point file
-* editorType → where plugin runs
+* **name** → Plugin name shown in Figma
+* **id** → Unique plugin identifier
+* **main** → Entry point JavaScript file
+* **ui** → HTML file for the form panel
+* **editorType** → Where the plugin runs
 
 ---
 
-# code.js Explanation
+# UI Panel (ui.html)
 
-## Creating a frame
+The UI panel is a form that collects briefing data from the user. It opens when the plugin runs via `figma.showUI(__html__, { width: 380, height: 720 })`.
 
-```js
-const frame = figma.createFrame();
-frame.resize(1200, 800);
-```
+## Form Fields
 
-Creates a container for all elements.
+| Field | Type | Required | Description |
+|-------|------|----------|-------------|
+| Test Name | text input | Yes | e.g. `GE\|MENU\|AB029 – Redesign Menu` |
+| Hypothesis | textarea | Yes | The hypothesis being tested |
+| Identified Problems | textarea | No | One problem per line (bullets added automatically) |
+| What We Propose | textarea | No | One proposal per line (bullets added automatically) |
+| Reasons Why | textarea | No | Format: `Title — Explanation` (one per line) |
+| Metric 1, 2, 3 | text inputs | No | Three KPIs to measure the test |
+| URL Rule | text input | No | URL or page where the test runs |
 
-Equivalent to manually creating a Frame in Figma.
+## How Data Flows
+
+1. User fills in the form and clicks **Generate Briefing**
+2. JavaScript collects all field values into a `data` object
+3. `parent.postMessage({ pluginMessage: { type: 'generate', data } }, '*')` sends the data to `code.js`
+4. Validation: Test Name and Hypothesis are required; other fields are optional
 
 ---
 
-## Creating shapes
+# code.js — Plugin Logic
+
+## Entry Point
 
 ```js
-const rect = figma.createRectangle();
-rect.resize(300, 600);
-```
+figma.showUI(__html__, { width: 380, height: 720 });
 
-Equivalent to drawing a rectangle in the UI.
-
----
-
-## Setting colors
-
-```js
-rect.fills = [
-  {
-    type: "SOLID",
-    color: { r: 0.9, g: 0.9, b: 0.9 }
+figma.ui.onmessage = async (msg) => {
+  if (msg.type === 'generate') {
+    await createBriefing(msg.data);
+    figma.closePlugin();
   }
-];
+};
 ```
 
-Color values use RGB from 0 to 1.
+The plugin shows the UI panel, waits for the user to submit the form, generates the layout, then closes.
 
-Example conversion:
+## createBriefing(input)
 
-```
-Figma color: #E5E5E5
+The main function that builds the entire layout. It receives the form data as `input`.
 
-Divide each channel by 255:
+### Constants
 
-229 / 255 = 0.9
-```
+* **Colors:** NAVY (`#123D5C`), WHITE, LIGHT_GRAY, DARK_GRAY
+* **Dimensions:** Frame 1400×900, Title bar 55px high, Sidebar 300px wide
 
----
+### Font Loading
 
-## Creating text
-
-You MUST load the font first:
+Three font styles must be loaded before creating text:
 
 ```js
-await figma.loadFontAsync({
-  family: "Inter",
-  style: "Regular"
-});
+await figma.loadFontAsync({ family: "Inter", style: "Regular" });
+await figma.loadFontAsync({ family: "Inter", style: "Bold" });
+await figma.loadFontAsync({ family: "Inter", style: "Semi Bold" });
 ```
 
-Then create text:
+### Helper Functions
+
+* `createText(opts)` — Creates a text node with configurable size, color, bold, width, lineHeight
+* `addSidebarHeader(text)` — Adds a bold 9px header to the sidebar (advances cursor)
+* `addSidebarBody(text)` — Adds a regular 7.5px body text to the sidebar (advances cursor)
+* `addSidebarSemiBold(text)` — Adds a semi-bold 7.5px text to the sidebar (used for numbered reason titles)
+
+### Layout Structure
+
+The frame is composed of these sections:
+
+```
+┌──────────────────────────────────────────────┐
+│  TITLE BAR (navy, full width, test name)     │
+├──────────┬───────────────────────────────────┤
+│          │                                   │
+│ SIDEBAR  │   CONTROL        REFERENCE        │
+│ (navy)   │   [screenshot]   [screenshot]     │
+│          │   placeholder    placeholder      │
+│ • Test   │                                   │
+│ • Hypoth │                                   │
+│ • Probs  │                                   │
+│ • Propos │                                   │
+│ • Reason │                                   │
+│ • Metric │                                   │
+│ • URL    │                        [WC Logo]  │
+└──────────┴───────────────────────────────────┘
+```
+
+### Sidebar Sections
+
+All sidebar sections use a cursor-based Y positioning system (`cursorY`). Each helper function appends content and advances the cursor.
+
+1. **Test Name** — Always shown (bold header)
+2. **Hypothesis** — Always shown (header + body)
+3. **Identified Problems** — Optional. Lines split by `\n`, each prefixed with `•`
+4. **What We Proposed** — Optional. Lines split by `\n`, each prefixed with `•`
+5. **Reasons Why** — Optional. Lines split by `\n`, parsed with `—` delimiter:
+   - If line contains `—`: title (semi-bold) + explanation (body)
+   - If no `—`: just the title (semi-bold)
+   - Each reason is numbered (1., 2., 3., ...)
+6. **Measured By** — Always shown. Three metrics displayed as bullet list
+7. **URL** — Always shown
+
+### Content Area
+
+Two columns side by side:
+- **CONTROL** — Light gray rectangle placeholder with centered text
+- **REFERENCE** — Slightly darker gray rectangle placeholder with centered text
+
+Users manually paste screenshots into these placeholders after generation.
+
+### WeConvert Logo
+
+A base64-encoded PNG logo is embedded directly in `code.js`. It is decoded and placed as an image fill on a rectangle at the bottom-right of the frame.
 
 ```js
-const text = figma.createText();
-text.characters = "Hello world";
-text.fontSize = 32;
+const logoBytes = figma.base64Decode(logoBase64);
+const logoImage = figma.createImage(logoBytes);
+logoRect.fills = [{ type: "IMAGE", scaleMode: "FIT", imageHash: logoImage.hash }];
 ```
 
----
-
-## Positioning elements
-
-```js
-text.x = 340;
-text.y = 40;
-```
-
-This sets position relative to the parent frame.
-
----
-
-## Adding elements to frame
-
-```js
-frame.appendChild(text);
-```
-
-This makes the element visible inside the frame.
-
----
-
-## Adding frame to page
+### Finalize
 
 ```js
 figma.currentPage.appendChild(frame);
-```
-
-Without this, nothing appears.
-
----
-
-## Selecting and zooming
-
-```js
 figma.currentPage.selection = [frame];
-
 figma.viewport.scrollAndZoomIntoView([frame]);
 ```
 
-This focuses the camera on the generated layout.
-
----
-
-## Closing plugin
-
-```js
-figma.closePlugin();
-```
-
-Ends execution.
-
----
-
-# Execution Flow
-
-```
-Plugin runs
-   ↓
-Create frame
-   ↓
-Create sidebar
-   ↓
-Create title text
-   ↓
-Create placeholders
-   ↓
-Add everything to page
-   ↓
-Focus viewport
-   ↓
-Close plugin
-```
+The frame is added to the page, selected, and the viewport zooms to it.
 
 ---
 
@@ -246,125 +213,38 @@ Close plugin
 Inside Figma:
 
 ```
-Plugins
- → Development
- → Briefing Generator
+Plugins → Development → Briefing Generator
 ```
 
----
+The form panel will appear. Fill in the fields and click **Generate Briefing**.
 
-# How to Extend
-
-You can add:
-
-## Images
-
-```js
-const image = figma.createRectangle();
-image.fills = [{
-  type: "IMAGE",
-  imageHash: ...
-}];
-```
+After making code changes, re-run the plugin to see updates (no reinstall needed).
 
 ---
 
-## Auto Layout
+# Key API Concepts
 
-```js
-frame.layoutMode = "VERTICAL";
-```
+## Color Values
 
----
-
-## Dynamic text from JSON
-
-Example:
-
-```js
-const data = {
-  title: "My briefing"
-};
-
-title.characters = data.title;
-```
-
----
-
-# Future AI Integration
-
-Recommended architecture:
+Figma uses RGB from 0 to 1 (not 0–255):
 
 ```
-AI generates JSON
-     ↓
-Plugin reads JSON
-     ↓
-Plugin builds layout
+Hex #123D5C → r: 18/255 = 0.07, g: 61/255 = 0.24, b: 92/255 = 0.36
 ```
 
-Example JSON:
+## Text Nodes
 
-```json
-{
-  "title": "Experiment Title",
-  "hypothesis": "Increase conversion",
-  "controlImage": "url",
-  "referenceImage": "url"
-}
-```
+Fonts must be loaded before creating text. `textAutoResize: "HEIGHT"` makes the text node auto-expand vertically to fit content.
 
----
+## Image Embedding
 
-# Automation Possibilities
+Images can be embedded as base64 strings, decoded with `figma.base64Decode()`, and applied as image fills on rectangles.
 
-You can automate generation from:
+## UI ↔ Plugin Communication
 
-* ChatGPT
-* Claude
-* Notion
-* Jira
-* Google Sheets
-* Internal tools
-
----
-
-# Benefits
-
-Manual work:
-
-20–30 minutes per briefing
-
-Automated:
-
-1–2 seconds
-
----
-
-# Recommended Next Steps
-
-Add support for:
-
-* JSON input
-* Image import from URL
-* Auto layout
-* Text styles
-* Templates
-* AI integration
-
----
-
-# Summary
-
-This plugin converts code into visual layout automatically inside Figma using:
-
-* Frames
-* Shapes
-* Text
-* Positioning
-* Figma Plugin API
-
-This enables scalable automated design generation.
+- **UI → Plugin:** `parent.postMessage({ pluginMessage: data }, '*')`
+- **Plugin → UI:** `figma.ui.postMessage(data)` (not currently used)
+- **Plugin receives:** `figma.ui.onmessage = (msg) => { ... }`
 
 ---
 
