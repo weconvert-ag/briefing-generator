@@ -2,11 +2,7 @@
 <html>
 <head>
   <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
 
     body {
       font-family: Inter, -apple-system, BlinkMacSystemFont, sans-serif;
@@ -17,96 +13,95 @@
       overflow-y: auto;
     }
 
-    h2 {
-      font-size: 15px;
-      font-weight: 700;
-      margin-bottom: 16px;
-      color: #123D5C;
-    }
+    h2 { font-size: 15px; font-weight: 700; margin-bottom: 16px; color: #123D5C; }
 
     label {
-      display: block;
-      font-size: 11px;
-      font-weight: 600;
-      color: #555;
-      margin-bottom: 4px;
-      text-transform: uppercase;
-      letter-spacing: 0.5px;
+      display: block; font-size: 11px; font-weight: 600; color: #555;
+      margin-bottom: 4px; text-transform: uppercase; letter-spacing: 0.5px;
     }
 
-    .field {
-      margin-bottom: 14px;
-    }
+    .field { margin-bottom: 14px; }
 
     textarea, input[type="text"] {
-      width: 100%;
-      padding: 8px 10px;
-      border: 1px solid #d0d0d0;
-      border-radius: 6px;
-      font-size: 12px;
-      font-family: Inter, -apple-system, BlinkMacSystemFont, sans-serif;
-      background: #fafafa;
-      transition: border-color 0.2s;
-      outline: none;
+      width: 100%; padding: 8px 10px; border: 1px solid #d0d0d0; border-radius: 6px;
+      font-size: 12px; font-family: Inter, -apple-system, BlinkMacSystemFont, sans-serif;
+      background: #fafafa; transition: border-color 0.2s; outline: none;
     }
 
-    textarea:focus, input[type="text"]:focus {
-      border-color: #123D5C;
-      background: #fff;
+    textarea:focus, input[type="text"]:focus { border-color: #123D5C; background: #fff; }
+
+    textarea { resize: vertical; min-height: 70px; }
+
+    select {
+      width: 100%; padding: 8px 10px; border: 1px solid #d0d0d0; border-radius: 6px;
+      font-size: 12px; font-family: Inter, -apple-system, BlinkMacSystemFont, sans-serif;
+      background: #fafafa; outline: none; transition: border-color 0.2s;
     }
 
-    textarea {
-      resize: vertical;
-      min-height: 70px;
+    select:focus { border-color: #123D5C; background: #fff; }
+
+    .metrics-group { display: flex; gap: 8px; }
+    .metrics-group input { flex: 1; }
+
+    .divider { height: 1px; background: #e5e5e5; margin: 16px 0; }
+
+    .field-hint { font-size: 10px; color: #999; margin-top: 3px; }
+
+    .section-label {
+      font-size: 10px; font-weight: 600; color: #123D5C;
+      text-transform: uppercase; letter-spacing: 0.8px; margin-bottom: 10px;
     }
 
-    .metrics-group {
-      display: flex;
-      gap: 8px;
+    #generateBtn {
+      width: 100%; padding: 10px; background: #123D5C; color: white; border: none;
+      border-radius: 6px; font-size: 13px; font-weight: 600; cursor: pointer;
+      transition: background 0.2s; margin-top: 4px;
     }
+    #generateBtn:hover { background: #0d2e45; }
+    #generateBtn:active { background: #092233; }
 
-    .metrics-group input {
-      flex: 1;
-    }
-
-    .divider {
-      height: 1px;
-      background: #e5e5e5;
-      margin: 16px 0;
-    }
-
-    .field-hint {
-      font-size: 10px;
-      color: #999;
-      margin-top: 3px;
-    }
-
-    button {
-      width: 100%;
-      padding: 10px;
-      background: #123D5C;
-      color: white;
-      border: none;
-      border-radius: 6px;
-      font-size: 13px;
-      font-weight: 600;
-      cursor: pointer;
+    #aiGenerateBtn {
+      width: 100%; padding: 10px; background: #2E7D32; color: white; border: none;
+      border-radius: 6px; font-size: 13px; font-weight: 600; cursor: pointer;
       transition: background 0.2s;
-      margin-top: 4px;
     }
+    #aiGenerateBtn:hover { background: #1B5E20; }
+    #aiGenerateBtn:disabled { background: #999; cursor: not-allowed; }
 
-    button:hover {
-      background: #0d2e45;
-    }
+    .ai-status { font-size: 11px; color: #666; text-align: center; margin-top: 6px; min-height: 16px; }
 
-    button:active {
-      background: #092233;
+    .title-row { display: flex; align-items: center; justify-content: space-between; margin-bottom: 16px; }
+    .title-row h2 { margin-bottom: 0; }
+    #fillDemoBtn {
+      padding: 4px 10px; background: #EBF2F7; color: #123D5C; border: 1px solid #C8D9E6;
+      border-radius: 4px; font-size: 10px; font-weight: 600; cursor: pointer;
+      transition: background 0.2s; text-transform: uppercase; letter-spacing: 0.3px;
     }
+    #fillDemoBtn:hover { background: #D6E5EF; color: #0d2e45; }
+    #fillAiDemoBtn {
+      padding: 4px 10px; background: #EBF2F7; color: #123D5C; border: 1px solid #C8D9E6;
+      border-radius: 4px; font-size: 10px; font-weight: 600; cursor: pointer;
+      transition: background 0.2s; text-transform: uppercase; letter-spacing: 0.3px;
+    }
+    #fillAiDemoBtn:hover { background: #D6E5EF; color: #0d2e45; }
   </style>
 </head>
 <body>
 
-  <h2>Briefing Generator</h2>
+  <div class="title-row">
+    <h2>Briefing Generator</h2>
+    <button id="fillDemoBtn">Fill Demo</button>
+  </div>
+
+  <div class="section-label">Test Setup</div>
+
+  <div class="field">
+    <label>Client</label>
+    <select id="client">
+      <option value="Nominal">Nominal</option>
+      <option value="Led Esthetics">Led Esthetics</option>
+    </select>
+  </div>
 
   <div class="field">
     <label>Test Name</label>
@@ -114,31 +109,72 @@
   </div>
 
   <div class="field">
-    <label>Hypothesis</label>
-    <textarea id="hypothesis" placeholder="If we redesign the mobile menu to include visual product cards..."></textarea>
+    <label>Page</label>
+    <select id="page">
+      <option value="Homepage">Homepage</option>
+      <option value="PDP">PDP</option>
+      <option value="Cart">Cart</option>
+      <option value="Collection">Collection</option>
+      <option value="Menu">Menu</option>
+      <option value="Checkout">Checkout</option>
+      <option value="Other">Other</option>
+    </select>
+  </div>
+
+  <div class="field">
+    <label>Change Description</label>
+    <textarea id="changeDescription" rows="3" placeholder="Describe what you want to test..."></textarea>
+  </div>
+
+  <div class="field">
+    <label>Goal</label>
+    <input type="text" id="goal" placeholder="Increase add-to-cart and conversion rate" />
+  </div>
+
+  <div class="field">
+    <label>Context <span style="font-weight:400;text-transform:none;color:#999">(optional)</span></label>
+    <textarea id="context" rows="2" placeholder="Optional: analytics insight, survey finding, heuristic observation"></textarea>
   </div>
 
   <div class="divider"></div>
 
+  <button id="aiGenerateBtn">Generate with AI</button>
+  <div class="ai-status" id="aiStatus"></div>
+
+  <div class="divider"></div>
+
+  <div style="display:flex;align-items:center;justify-content:space-between;">
+    <div class="section-label" style="margin-bottom:0;">AI-Generated Content</div>
+    <button id="fillAiDemoBtn">Fill AI Demo</button>
+  </div>
+  <div style="height:10px;"></div>
+
+  <div class="field">
+    <label>Hypothesis</label>
+    <textarea id="hypothesis" placeholder="If we redesign the mobile menu to include visual product cards..."></textarea>
+  </div>
+
   <div class="field">
     <label>Identified Problems</label>
-    <textarea id="identifiedProblems" placeholder="One problem per line. Bullets (•) are added automatically.&#10;&#10;The current menu is text-only...&#10;Users must rely on reading multiple pages..."></textarea>
+    <textarea id="identifiedProblems" placeholder="One problem per line. Bullets are added automatically."></textarea>
     <div class="field-hint">List the problems this test aims to solve (one per line)</div>
   </div>
 
   <div class="field">
     <label>What We Propose</label>
-    <textarea id="whatWePropose" placeholder="One proposal per line. Bullets (•) are added automatically.&#10;&#10;Redesign the mobile menu to include visual cards...&#10;Replace text-only links with image-based elements..."></textarea>
+    <textarea id="whatWePropose" placeholder="One proposal per line. Bullets are added automatically."></textarea>
     <div class="field-hint">Describe the proposed changes (one per line)</div>
   </div>
 
   <div class="field">
     <label>Reasons Why</label>
-    <textarea id="reasonsWhy" placeholder="Format: Title — Explanation (one per line)&#10;&#10;Recognition Heuristic — Users click faster when they see products visually&#10;Cognitive Load Reduction — Visual cards reduce effort"></textarea>
+    <textarea id="reasonsWhy" placeholder="Format: Title — Explanation (one per line)"></textarea>
     <div class="field-hint">Behavioral/psychological reasons. Use "Title — Explanation" format, one per line</div>
   </div>
 
   <div class="divider"></div>
+
+  <div class="section-label">Measurement</div>
 
   <div class="field">
     <label>Measured by</label>
@@ -160,8 +196,190 @@
   <button id="generateBtn">Generate Briefing</button>
 
   <script>
-    document.getElementById('generateBtn').addEventListener('click', () => {
-      const data = {
+    // ---- OPENAI ASSISTANTS API ----
+    var OPENAI_API_KEY = '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';
+    var ASSISTANT_ID = 'asst_cT0xJb13dDkKh9GEHZhXTruA';
+    var API_BASE = 'https://api.openai.com/v1';
+
+    function apiHeaders() {
+      return {
+        'Content-Type': 'application/json',
+        'Authorization': 'Bearer ' + OPENAI_API_KEY,
+        'OpenAI-Beta': 'assistants=v2'
+      };
+    }
+
+    // ---- AI GENERATE ----
+    document.getElementById('aiGenerateBtn').addEventListener('click', async function() {
+      var btn = document.getElementById('aiGenerateBtn');
+      var status = document.getElementById('aiStatus');
+
+      var client = document.getElementById('client').value;
+      var testName = document.getElementById('testName').value.trim();
+      var page = document.getElementById('page').value;
+      var changeDescription = document.getElementById('changeDescription').value.trim();
+      var goal = document.getElementById('goal').value.trim();
+      var context = document.getElementById('context').value.trim();
+      var metrics = [
+        document.getElementById('metric1').value.trim(),
+        document.getElementById('metric2').value.trim(),
+        document.getElementById('metric3').value.trim()
+      ].filter(function(m) { return m; });
+      var url = document.getElementById('urlRule').value.trim();
+
+      if (!testName || !changeDescription || !goal) {
+        alert('Please fill in Test Name, Change Description, and Goal before generating.');
+        return;
+      }
+
+      var userInputObj = {
+        client: client,
+        testName: testName,
+        page: page,
+        changeDescription: changeDescription,
+        goal: goal
+      };
+      if (metrics.length) userInputObj.metrics = metrics;
+      if (url) userInputObj.url = url;
+      if (context) userInputObj.context = context;
+
+      var userInput = JSON.stringify(userInputObj);
+
+      btn.disabled = true;
+      btn.textContent = 'Generating...';
+      status.textContent = 'Creating thread...';
+      status.style.color = '#666';
+
+      try {
+        // Step 1: Create a thread
+        var threadRes = await fetch(API_BASE + '/threads', {
+          method: 'POST',
+          headers: apiHeaders(),
+          body: JSON.stringify({})
+        });
+        if (!threadRes.ok) {
+          var threadErr = await threadRes.json();
+          throw new Error(threadErr.error ? threadErr.error.message : 'Failed to create thread');
+        }
+        var thread = await threadRes.json();
+
+        // Step 2: Add user message to thread
+        status.textContent = 'Sending message...';
+        var msgRes = await fetch(API_BASE + '/threads/' + thread.id + '/messages', {
+          method: 'POST',
+          headers: apiHeaders(),
+          body: JSON.stringify({
+            role: 'user',
+            content: userInput
+          })
+        });
+        if (!msgRes.ok) {
+          var msgErr = await msgRes.json();
+          throw new Error(msgErr.error ? msgErr.error.message : 'Failed to add message');
+        }
+
+        // Step 3: Run the assistant
+        status.textContent = 'AI is analyzing research and generating...';
+        var runRes = await fetch(API_BASE + '/threads/' + thread.id + '/runs', {
+          method: 'POST',
+          headers: apiHeaders(),
+          body: JSON.stringify({
+            assistant_id: ASSISTANT_ID
+          })
+        });
+        if (!runRes.ok) {
+          var runErr = await runRes.json();
+          throw new Error(runErr.error ? runErr.error.message : 'Failed to start run');
+        }
+        var run = await runRes.json();
+
+        // Step 4: Poll until complete
+        var runStatus = run.status;
+        var dots = 0;
+        while (runStatus === 'queued' || runStatus === 'in_progress') {
+          await new Promise(function(resolve) { setTimeout(resolve, 1500); });
+          dots = (dots + 1) % 4;
+          status.textContent = 'AI is analyzing research and generating' + '.'.repeat(dots + 1);
+          var pollRes = await fetch(API_BASE + '/threads/' + thread.id + '/runs/' + run.id, {
+            method: 'GET',
+            headers: apiHeaders()
+          });
+          if (!pollRes.ok) throw new Error('Failed to poll run');
+          var pollData = await pollRes.json();
+          runStatus = pollData.status;
+        }
+
+        if (runStatus !== 'completed') {
+          throw new Error('Run ended with status: ' + runStatus);
+        }
+
+        // Step 5: Get the assistant's response
+        status.textContent = 'Reading response...';
+        var msgsRes = await fetch(API_BASE + '/threads/' + thread.id + '/messages?order=desc&limit=1', {
+          method: 'GET',
+          headers: apiHeaders()
+        });
+        if (!msgsRes.ok) throw new Error('Failed to get messages');
+        var msgsData = await msgsRes.json();
+
+        var assistantMsg = msgsData.data[0].content[0].text.value;
+
+        // Clean markdown fences if present
+        var cleaned = assistantMsg.replace(/```json\s*/g, '').replace(/```\s*/g, '').trim();
+        var result = JSON.parse(cleaned);
+
+        // Fill the form fields
+        if (result.hypothesis) {
+          document.getElementById('hypothesis').value = result.hypothesis;
+        }
+        if (result.identified_problems && Array.isArray(result.identified_problems)) {
+          document.getElementById('identifiedProblems').value = result.identified_problems.join('\n');
+        }
+        if (result.what_we_propose && Array.isArray(result.what_we_propose)) {
+          document.getElementById('whatWePropose').value = result.what_we_propose.join('\n');
+        }
+        if (result.reasons_why && Array.isArray(result.reasons_why)) {
+          document.getElementById('reasonsWhy').value = result.reasons_why
+            .map(function(r) { return r.bias + ' \u2014 ' + r.explanation; })
+            .join('\n');
+        }
+        if (result.metrics && Array.isArray(result.metrics)) {
+          if (result.metrics[0]) document.getElementById('metric1').value = result.metrics[0];
+          if (result.metrics[1]) document.getElementById('metric2').value = result.metrics[1];
+          if (result.metrics[2]) document.getElementById('metric3').value = result.metrics[2];
+        }
+        if (result.url_rule) {
+          document.getElementById('urlRule').value = result.url_rule;
+        }
+
+        // Visual feedback — green highlight on auto-filled fields
+        ['hypothesis', 'identifiedProblems', 'whatWePropose', 'reasonsWhy', 'metric1', 'metric2', 'metric3', 'urlRule'].forEach(function(id) {
+          var el = document.getElementById(id);
+          el.style.borderColor = '#2E7D32';
+          el.style.background = '#f0f8f0';
+          el.addEventListener('input', function() {
+            el.style.borderColor = '';
+            el.style.background = '';
+          }, { once: true });
+        });
+
+        status.textContent = 'AI fields generated. Review and edit before creating the briefing.';
+        status.style.color = '#2E7D32';
+
+      } catch (error) {
+        console.error('OpenAI API error:', error);
+        status.textContent = 'Error: ' + error.message;
+        status.style.color = '#d32f2f';
+      } finally {
+        btn.disabled = false;
+        btn.textContent = 'Generate with AI';
+      }
+    });
+
+    // ---- GENERATE BRIEFING ----
+    document.getElementById('generateBtn').addEventListener('click', function() {
+      var data = {
+        client: document.getElementById('client').value,
         testName: document.getElementById('testName').value.trim(),
         hypothesis: document.getElementById('hypothesis').value.trim(),
         identifiedProblems: document.getElementById('identifiedProblems').value.trim(),
@@ -173,13 +391,53 @@
         urlRule: document.getElementById('urlRule').value.trim()
       };
 
-      // Validate required fields
       if (!data.testName || !data.hypothesis) {
         alert('Please fill in at least the Test Name and Hypothesis.');
         return;
       }
 
       parent.postMessage({ pluginMessage: { type: 'generate', data: data } }, '*');
+    });
+
+    // ---- FILL AI DEMO DATA ----
+    document.getElementById('fillAiDemoBtn').addEventListener('click', function() {
+      // Also fill Test Setup fields so Generate Briefing works without AI
+      document.getElementById('client').value = 'Nominal';
+      document.getElementById('testName').value = 'NMN|PP|AB32 \u2013 Sticky Add to Cart CTA on Product Pages';
+      document.getElementById('page').value = 'PDP';
+      document.getElementById('changeDescription').value = 'Add a sticky bottom bar on mobile product pages with the product name, price, and an Add to Cart button that stays visible as the user scrolls down.';
+      document.getElementById('goal').value = 'Increase add-to-cart rate and final conversion rate';
+      document.getElementById('context').value = '';
+
+      document.getElementById('hypothesis').value = 'If we add a sticky bottom bar with the product name, price, and an Add to Cart button on mobile product pages, we expect to increase add-to-cart rate and conversion rate because keeping the primary CTA visible throughout the browsing experience reduces friction at the moment of purchase intent.';
+      document.getElementById('identifiedProblems').value = 'Analytics data shows that 68% of mobile PDP visitors scroll past the Add to Cart button within the first 5 seconds, losing direct access to the primary CTA.\nHeatmap analysis reveals that only 12% of mobile users scroll back up to interact with the Add to Cart button after browsing product details below the fold.\nSession recordings indicate users frequently hesitate and abandon the page after scrolling down, suggesting the effort to return to the CTA discourages conversion.\nMobile conversion rate is 64% lower than desktop, indicating the current mobile layout fails to facilitate purchase decisions effectively.\nAccording to CRO best practices, persistent CTAs on mobile reduce interaction cost and keep purchase motivation active throughout the browsing session.\nBehavioral research shows that users are more likely to act when the action pathway is immediately visible, reducing the cognitive effort required to complete a task.';
+      document.getElementById('whatWePropose').value = 'Add a sticky bottom bar on mobile product pages that becomes visible once the user scrolls past the original Add to Cart button.\nDisplay the product name and current price in the sticky bar for quick reference.\nInclude a prominent Add to Cart button in the sticky bar matching the brand design.\nEnsure the sticky bar does not obstruct product content or create layout shift.\nOptimize the sticky bar height and padding for comfortable thumb-zone interaction.';
+      document.getElementById('reasonsWhy').value = 'Motivation at Decision Point \u2014 Keeping the Add to Cart button visible at all times captures purchase intent exactly when users feel motivated, without requiring them to navigate back.\nCognitive Load Reduction \u2014 A persistent CTA eliminates the mental effort of remembering where the button is and scrolling back, simplifying the path to conversion.\nVisual Salience Bias \u2014 The sticky bar maintains visual prominence of the primary action, ensuring users always see the next step regardless of their scroll position.';
+      document.getElementById('metric1').value = 'Add-to-Cart Rate';
+      document.getElementById('metric2').value = 'Conversion Rate';
+      document.getElementById('metric3').value = 'Revenue per Session';
+      document.getElementById('urlRule').value = 'All product pages (/products/*)';
+
+      // Green highlight on filled fields
+      ['hypothesis', 'identifiedProblems', 'whatWePropose', 'reasonsWhy', 'metric1', 'metric2', 'metric3', 'urlRule'].forEach(function(id) {
+        var el = document.getElementById(id);
+        el.style.borderColor = '#2E7D32';
+        el.style.background = '#f0f8f0';
+        el.addEventListener('input', function() {
+          el.style.borderColor = '';
+          el.style.background = '';
+        }, { once: true });
+      });
+    });
+
+    // ---- FILL DEMO DATA ----
+    document.getElementById('fillDemoBtn').addEventListener('click', function() {
+      document.getElementById('client').value = 'Nominal';
+      document.getElementById('testName').value = 'NMN|PP|AB32 \u2013 Sticky Add to Cart CTA on Product Pages';
+      document.getElementById('page').value = 'PDP';
+      document.getElementById('changeDescription').value = 'Add a sticky bottom bar on mobile product pages with the product name, price, and an Add to Cart button that stays visible as the user scrolls down.';
+      document.getElementById('goal').value = 'Increase add-to-cart rate and final conversion rate';
+      document.getElementById('context').value = '';
     });
   </script>
 

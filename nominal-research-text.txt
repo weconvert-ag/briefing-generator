@@ -1,0 +1,5613 @@
+CRO Report
+
+Zvišaj ceno in
+prodaj več
+
+ABOUT ME
+
+Asmir Muminovic
+Senior CRO specialist
+●
+●
+●
+●
+●
+
+Driven by clients’ results
+Background in data analysis, sales and strategy
+Head of CRO for INSPIRE BRANDS DIGITAL
+Running We Convert since 2019
+Certiﬁed conversion optimizer, growth hacker, data
+analyst, behavioral designer
+
+Executive Summary
+What we did:
+Our CRO research framework is a comprehensive research framework that provides a good balance between agility and
+thoroughness. It includes a multitude of qualitative and quantitative analysis methods to extract the most value out of all
+data sources. In this case the research methods used were: UX heuristic analysis, Google Analytics audit, heatmaps, exit
+polls, user testing, and customer surveys.
+
+What we found:
+Our research has resulted in74 recommendations for improved user experience and conversion rate. These
+opportunities centre around the following problem statements:
+●
+●
+●
+●
+
+Category Navigation: Users find it difficult to navigation to a relevant product category
+Information Gathering: Users struggled to determine which products is best for them
+Delivery & Returns: Users have uncertainties around the delivery & returns process
+Checkout: There is opportunity to streamline the checkout process.
+
+Next Steps:
+After presenting the key insights from each activity and the top priority recommendations we’ll transfer everything into a
+prioritised database using our PX prioritisation model. This will inform development of a roadmap of ongoing
+optimization activity to support you in achieving your goals.
+
+Activity
+
+AHEAD OF US
+
+●
+
+Welcome and objectives
+
+5 min
+
+●
+
+High level overview
+
+2 min
+
+●
+
+Where are you losing money
+
+20 min
+
+●
+
+Why do users drop off
+
+20 min
+
+●
+
+Your website analysis
+
+30 min
+
+●
+
+Summary and proposed way forward
+
+10 min
+
+●
+
+Questions & Answers
+
+10 min
+
+●
+
+Wrap up
+
+5 min
+
+Meeting objectives
+The goal of today’s meeting is to find out more about Nominal’s conversion issues and agree on the testing
+roadmap.
+To achieve this goal, we will answer the following questions:
+Funnel issues
+●
+
+Where are we losing the most money?
+
+●
+
+Why are visitors dropping off?
+
+●
+
+What can we do to fix those problems?
+
+Testing roadmap
+●
+
+How to fix the issues? List of prioritised issues and experiment ideas
+
+●
+
+What is the additional revenue estimated by fixing the issues?
+
+●
+
+What are the next steps and how long will it take?
+
+Research Methods
+Research Method
+
+Google
+Analytics
+
+Responsiveness and Speed
+
+✓
+
+User Journey
+
+✓
+
+Hot Jar
+
+User
+Research
+
+Expert Evaluation
+
+✓
+✓
+
+Heatmaps, clickmaps, scrollmaps
+
+✓
+
+✓
+
+Session recordings
+
+✓
+
+✓
+
+User Testing
+
+✓
+✓
+
+Accessibility and UX
+Psychology and Heuristic
+
+✓
+
+Rigorous analysis using analytical and qualitative data gave us confidence in our findings
+
+✓
+✓
+
+Let’s take a look at
+Google Analytics data
+Apr 4hth - July 4th 2025, Own analysis
+
+Your average CVR is slightly higher than the median of
+similar stores and even surpasses the top 25%. Moving
+forward, we'll explore ways to improve it even further
+Your AVG CVR
+
+Median CVR
+
+Top 25%
+
+2.39%
+
+1.41%
+
+>2.09%
+
+Your store’s current performance
+
+Peer benchmark—an industry-wide
+average
+
+Top performance within your niche
+
+This is you
+
+Nominal’s average conversion rate
+(2.39%) is above the industry median
+(1.44%) and even surpasses the top
+25% of stores, which typically achieve
+rates above 2.09%. This reflects strong
+performance driven by effective
+promotional strategies and customer
+interest.
+In the following slides, we’ve outlined
+clear strategies and actionable
+insights focused on key optimization
+areas. By implementing these
+recommendations and maintaining
+consistent testing, we believe
+Nominal can further improve and
+reach top-performing benchmarks.
+
+Source: Shopify Analytics from Apr 4hth - July 4th 2025, Own analysis
+
+Desktop CVR is expected to be around 64% higher than
+mobile, but this large discrepancy may have been
+inﬂuenced by the low traffic share (11%).
+AVG CVR: 2.47%
+
+Sessions share by Device Type
+
+Conversion Rate by Device Type
+E-commerce conversion rate
+Transactions by Device Type
+
+Source: Shopify Analytics from Apr 4hth - July 4th 2025, Own analysis
+
+10
+
+Improving conversion rates by +10% across all devices
+would bring in substantial improvements to you bottom
+line
+
+This would pull your
+overall conversion rate to
+2.72%
+
+Sessions share by Device Type
+
+Conversion Rate by Device Type
+E-commerce conversion rate
+Transactions by Device Type
+
+Source: Shopify Analytics from Apr 4hth - July 4th 2025, Own analysis
+
+11
+
+But the question is,
+how do we get there?
+
+Meet our very own CRO4 framework
+A proven framework for identifying and solving e-comm conversion problems.
+●
+●
+●
+
+What actions can solve the issues we
+discovered?
+What strategies can boost conversions
+and KPIs?
+What measures can we take to fix the
+drop-offs?
+
+●
+●
+●
+
+User motivations
+Hesitations & doubts
+Lack of trust or clarity
+
+●
+●
+●
+●
+
+Drop-offs & friction points
+Low conversion rates
+Slow loading times
+Low engagement times & High bounce
+rates
+
+●
+●
+●
+
+Who are people visiting your website?
+Where they are coming from?
+What problems they are trying to solve?
+
+By answering each layer, we uncover what’s holding your store back — and how to fix it.
+
+FIRST LET'S TRY TO UNDERSTAND YOUR BUYERS
+
+Knowing your
+audience
+Answering the questions
+
+Who are the PEOPLE visiting Nominal?
+Where are they coming from?
+How do they contribute to your bottom line?
+
+The majority of your audience is aged 25–44, with females
+making up 67% of visitors according to Google Analytics
+
+Conversion Rate by Device Type
+
+User share by Gender
+Source: GA Analytics from Apr 4hth - July 4th 2025
+
+Active users grouped by Age
+
+74% of your visitors are from the United States driving
+75% of your total revenue.
+
+User share segmented by Country
+Source: GA Analytics from Apr 4hth - July 4th 2025
+
+Visitors from the US, UK, Canada and Australia convert
+1.7X higher more than average of other countries
+Country
+
+Users
+
+%
+
+Transactions
+
+Conversion rate
+
+RPU
+
+United States
+
+721,239
+
+63.70%
+
+21,152.00
+
+2.80%
+
+$2.37
+
+United Kingdom
+
+157,515
+
+13.91%
+
+2,893.00
+
+1.62%
+
+$1.35
+
+Canada
+
+114,040
+
+10.07%
+
+2,200.00
+
+1.76%
+
+$1.72
+
+Australia
+
+44,156
+
+3.90%
+
+794.00
+
+1.63%
+
+$1.46
+
+Ireland
+
+21,779
+
+1.92%
+
+57.00
+
+0.19%
+
+$0.23
+
+Sweden
+
+20,464
+
+1.81%
+
+23.00
+
+0.11%
+
+$0.10
+
+France
+
+14,390
+
+1.27%
+
+79.00
+
+0.40%
+
+$0.48
+
+United Arab Emirates
+
+13,581
+
+1.20%
+
+205.00
+
+1.41%
+
+$1.70
+
+Egypt
+
+12,850
+
+1.13%
+
+13.00
+
+0.72%
+
+$0.09
+
+Saudi Arabia
+
+12183
+
+1.08%
+
+106.00
+
+0.40%
+
+$1.03
+
+Users, Sessions and Conversion rates segmented by Country
+Source: GA Analytics from Apr 4hth - July 4th 2025
+
+Visitors from Dallas, Boston and Los Angeles are
+underperforming compared to the CVR of other states.
+State
+
+Users
+
+%
+
+Purchases
+
+Conversion rate
+
+RPU
+
+New York
+
+64,901
+
+19.86%
+
+1,799
+
+2.77%
+
+$2.29
+
+London
+
+56,287
+
+17.22%
+
+973
+
+1.73%
+
+$1.31
+
+Ashburn
+
+33,224
+
+10.16%
+
+674
+
+2.03%
+
+$1.63
+
+Toronto
+
+29,126
+
+8.91%
+
+565
+
+1.94%
+
+$1.76
+
+Chicago
+
+28,300
+
+8.66%
+
+848
+
+3.00%
+
+$2.38
+
+Los Angeles
+
+27,390
+
+8.38%
+
+771
+
+2.81%
+
+$2.40
+
+Boston
+
+20,432
+
+6.25%
+
+613
+
+3.00%
+
+$2.40
+
+Dublin
+
+19,936
+
+6.10%
+
+47
+
+0.24%
+
+$0.24
+
+Dallas
+
+16,929
+
+5.18%
+
+549
+
+3.24%
+
+$2.64
+
+Sydney
+
+16,093
+
+4.92%
+
+285
+
+1.77%
+
+$1.44
+
+Forest City
+
+14,232
+
+4.35%
+
+16
+
+0.11%
+
+$0.09
+
+Users, Sessions and Conversion rates segmented by Country
+Source: GA Analytics from Apr 4hth - July 4th 2025
+
+Key Takeaways | Audience Analysis
+1.
+
+63% of visitors coming from USA, 13.91% from UK and 10.07% from Canada, becoming
+the english country speakers the most popular countries in the website
+
+2.
+
+Visitors from the US, UK, Canada and Australia convert 1.7X higher more than average
+of other countries
+
+3.
+
+UAE have higher RPU and conversion rate but represents just 1.20% of users
+
+4.
+
+Visitors from Dallas, Boston and Los Angeles are underperforming compared to the
+CVR of other states.
+
+5.
+
+The majority of your audience is aged 25–44, with females making up 67% of visitors
+according to Google Analytics
+
+NOW LET'S FIND OUT
+
+Where are you
+losing money?
+Answering the questions
+The impact on page speed on your bottom line?
+Where are your visitors dropping off?
+
+The Nominal product page has opportunities to
+improve Page Loading Time
+Average page load time (seconds)
+
+Page Loading Times by devices vs Benchmarks
+
+We recommend working with a page speed optimisation specialist to optimize all of your pages - starting with homepage and
+product pages which currently load slower than 2 seconds.
+Source: GA Analytics from June 21 — July 6, 2025
+
+There is a clear correlation between Page
+Load Time (PLT) and higher bounce rates
+Bounced Sessions
+
+Non-bounced Sessions
+
+Avg. Page Load Time (sec)
+
+Avg. Page Load Time (sec)
+
+23.35
+
+6.21s
+
+According to Google, optimal page loading time across all devices should be 2.0 seconds.
+Source: GA Analytics from June 21 — July 6, 2025
+
+The Nominal product page has opportunities to
+improve Page Loading Time
+Average page load time (seconds)
+
+Page Loading Times by devices vs Benchmarks
+
+Page Loading Times by pages
+
+We recommend working with a page speed optimisation specialist to optimize all of your pages - starting with Homepage and
+product pages which currently load slower than 2 seconds.
+Source: GA Analytics from June 21 — July 6, 2025
+
+The homepage load speed failed Google's Core Web
+Vitals assessment, and there’s room for improvement.
+
+For optimized experience we should aim towards at least 80 for the mobile devices & 90 for desktop
+Source: Google Pagespeed Insights
+
+According to Google, page speed issues are costing you
+roughly around 8% of monthly revenue
+
+Device Category
+
+Sessions
+
+CVR
+
+Monthly Revenue
+
+AVG Load Time
+
+New CVR
+
+(June)
+
+PLT (Sec)
+
+if PLT= 2 sec
+
+Extra Revenue
+If PLT = 2 sec
+
+Mobile (87% of
+sessions)
+
+445,037
+
+1.96%
+
+$696,441
+
+3.7*
+
+2.11%
+
+$53,137
+
+Desktop (11% of
+sessions)
+
+60,790
+
+2.93%
+
+$161,206
+
+2.7*
+
+3.29%
+
+$14,969
+
+Total :
+
+Improving page loading time to 2.0 per second is expected to boost your yearly revenue for ~$817,272
+Source: Shopify from April, 2025, Own analysis
+Website conversion rates drop by an average of 4.42% for each additional second of load time. Source link
+
+-$68,106 p.m.
+
+It takes around 5 seconds until the largest
+visible content (hero image) loads
+
+Source: webpagetest.org
+
+For optimized experience we should aim towards at least 80 for the mobile devices & 90 for desktop
+Source: webpagetest.org
+
+It takes around 5 seconds until the largest
+visible content (hero image) loads
+
+Source: webpagetest.org
+
+For optimized experience we should aim towards at least 80 for the mobile devices & 90 for desktop
+Source: webpagetest.org
+
+NOW LET'S FIND OUT
+
+Where are your
+visitors dropping off?
+Apr 4hth - July 4th 2025, Own analysis
+
+The drop-off for users who enter through the homepage is
+collection pages with 24% proceed to the product
+Users who entered through the homepage
+had the highest final conversion rate -73%
+higher than those who started their sessions
+on collection or product pages. This suggests
+that the homepage funnel is more effective,
+helping users choose the right product and
+continue through the journey, even with more
+steps involved.
+Considering the homepage is where we
+explain our benefits, values, brand story, and
+other key messaging, this outcome is justified.
+
+28% ATC!
+
+We observed a significant drop-off from the
+product page, with only 29% of users
+proceeding. On the other hand, the CVR from
+other steps are well above average.
+
+abandonment rate
+
+37%
+
+Source: GA Analytics from April 4- May 31 2025
+
+24%
+
+71%
+
+46%
+
+57%
+
+4.61% CVR
+
+Notably, the checkout conversion rate stands
+at 57%, indicating that users who start from
+the homepage are more likely to select the
+right product and complete their purchase.
+
+The drop-off for users who enter through the homepage is
+collection pages with 24% proceed to the product
+Users who entered through the homepage
+had the highest final conversion rate -73%
+higher than those who started their sessions
+on collection or product pages. This suggests
+that the homepage funnel is more effective,
+helping users choose the right product and
+continue through the journey, even with more
+steps involved.
+Considering the homepage is where we
+explain our benefits, values, brand story, and
+other key messaging, this outcome is justified.
+
+28% ATC!
+
+We observed a significant drop-off from the
+product page, with only 29% of users
+proceeding. On the other hand, the CVR from
+other steps are well above average.
+
+abandonment rate
+
+37%
+
+Source: GA Analytics from April 4- May 31 2025
+
+24%
+
+71%
+
+46%
+
+57%
+
+4.61% CVR
+
+Notably, the checkout conversion rate stands
+at 57%, indicating that users who start from
+the homepage are more likely to select the
+right product and complete their purchase.
+
+The drop-off for users who enter through the collection is
+product pages with 28% proceed to the cart
+When analyzing users who entered through
+the collection pages, we observed a
+significant drop-off between the product
+page and the cart. Users are typically
+selecting and filtering products on the
+collection page, but many are not converting
+from there.
+This may indicate that users are unsure about
+which product to choose or don’t feel
+incentivized enough to proceed.
+
+28% ATC!
+
+We can focus on improving the product page
+to help users feel more inclined to
+continue—by reinforcing key benefits,
+addressing doubts, and suggesting
+alternative product options if they’re not fully
+convinced.
+
+abandonment rate
+
+46%
+
+Source: GA Analytics from April 4- May 31 2025
+
+78%
+
+46%
+
+41%
+
+1.84% CVR
+
+The other stages show average or stable
+conversion rates.
+
+The drop-off for users who enter through the collection is
+product pages with 28% proceed to the cart
+When analyzing users who entered through
+the collection pages, we observed a
+significant drop-off between the product
+page and the cart. Users are typically
+selecting and filtering products on the
+collection page, but many are not converting
+from there.
+This may indicate that users are unsure about
+which product to choose or don’t feel
+incentivized enough to proceed.
+
+28% ATC!
+
+We can focus on improving the product page
+to help users feel more inclined to
+continue—by reinforcing key benefits,
+addressing doubts, and suggesting
+alternative product options if they’re not fully
+convinced.
+
+abandonment rate
+
+46%
+
+Source: GA Analytics from April 4- May 31 2025
+
+78%
+
+46%
+
+41%
+
+1.84% CVR
+
+The other stages show average or stable
+conversion rates.
+
+The main drop-off for users who enter through the product
+pages occurs at the add-to-cart rate, with an 90%
+abandonment rate
+For users who entered through product
+pages, we observed a high
+abandonment rate at the product view
+stage, with nearly 90% dropping off.
+Our main focus here should be to
+provide more persuasive information on
+the product page to encourage users to
+move forward and add items to their
+cart.
+Improving the product page experience
+is crucial not only for this specific entry
+point but also for strengthening other
+user journeys throughout the funnel.
+Abandonment rate
+
+90%
+
+46%
+
+Source: Shopify Analytics from Apr 4hth - July 4th 2025, Own analysis
+
+42%
+
+1.92% CVR
+
+When segmenting by device, we noticed a very high drop-off
+rate on the cart and checkout pages on mobile. Another
+interesting ﬁnding is that the add-to-cart rate is actually
+higher on mobile than on desktop, which is uncommon
+14%ATC!
+
+Abandonment
+rate
+
+89%
+
+Source: GA Analytics from April 4- May 31 2025
+
+43%
+
+50%
+
+3.18% CVR
+
+85%
+
+55%
+
+60%
+
+1.93% CVR
+
+When segmenting by device, we noticed a very high drop-off
+rate on the cart and checkout pages on mobile. Another
+interesting ﬁnding is that the add-to-cart rate is actually
+higher on mobile than on desktop, which is uncommon
+14%ATC!
+
+Abandonment
+rate
+
+89%
+
+Source: GA Analytics from April 4- May 31 2025
+
+43%
+
+50%
+
+3.18% CVR
+
+85%
+
+55%
+
+60%
+
+1.93% CVR
+
+When segmenting by device, we noticed a very high drop-off
+rate on the cart and checkout pages on mobile. Another
+interesting ﬁnding is that the add-to-cart rate is actually
+higher on mobile than on desktop, which is uncommon
+14%ATC!
+
+Abandonment
+rate
+
+89%
+
+Source: GA Analytics from April 4- May 31 2025
+
+43%
+
+50%
+
+3.18% CVR
+
+85%
+
+55%
+
+60%
+
+1.93% CVR
+
+When segmenting by device, we noticed a very high drop-off
+rate on the cart and checkout pages on mobile. Another
+interesting ﬁnding is that the add-to-cart rate is actually
+higher on mobile than on desktop, which is uncommon
+14%ATC!
+
+Abandonment
+rate
+
+89%
+
+Source: GA Analytics from April 4- May 31 2025
+
+43%
+
+50%
+
+3.18% CVR
+
+85%
+
+55%
+
+60%
+
+1.93% CVR
+
+We can focus on improving the product page content and initial
+sections to reduce the bounce rate and increase average
+session duration, further strengthening the overall funnel
+Page
+
+Sessions
+
+% Sessions
+
+Bounce Rate
+
+Avg. Session Duration
+
+Home
+
+407,157
+
+32,4%
+
+14.89%
+
+3.5 min
+
+Collection
+
+374,816
+
+29.9%
+
+44.9%
+
+2.5 min
+
+Product
+
+472,874
+
+37.7%
+
+62.16%
+
+1.8 mins
+
+We observed a high number of users reaching the product page, but most are exiting the website from there and spending
+less time compared to other page types
+Source: GA Analytics from April 4- May 31 2025
+
+Earrings have strong potential to generate more revenue. We should
+focus on attracting more users to this category and implement
+strategies to increase its average order value
+Product Category
+
+Revenue
+
+% Revenue
+
+% Users
+
+A2C
+
+Checkout
+
+CVR
+
+AOV
+
+RPU
+
+Women's Necklaces
+
+$605,936.41
+
+39.6%
+
+37.2%
+
+26.15%
+
+55.73%
+
+5.47%
+
+$48.00
+
+$2.62
+
+Women's Rings
+
+$314,634.28
+
+20.6%
+
+20.6%
+
+30.32%
+
+51.65%
+
+6.75%
+
+$36.46
+
+$2.46
+
+Women's Bracelets
+
+$181,698.13
+
+11.9%
+
+13.5%
+
+24.24%
+
+58.81%
+
+5.30%
+
+$40.91
+
+$2.17
+
+Women's Earrings
+
+$109,702.14
+
+7.2%
+
+5.8%
+
+34.12%
+
+51.13%
+
+8.69%
+
+$35.35
+
+$3.07
+
+Men's Necklaces
+
+$62,742.20
+
+4.1%
+
+5.0%
+
+19.43%
+
+69.23%
+
+5.30%
+
+$38.52
+
+$2.04
+
+Men's Rings
+
+$43,359.45
+
+2.8%
+
+4.0%
+
+15.84%
+
+75.45%
+
+4.40%
+
+$39.93
+
+$1.76
+
+Men's Bracelets
+
+$33,477.26
+
+2.2%
+
+2.4%
+
+21.87%
+
+79.79%
+
+5.96%
+
+$37.32
+
+$2.22
+
+Women's Anklets
+
+$29,790.95
+
+2.0%
+
+2.0%
+
+30.61%
+
+55.19%
+
+6.97%
+
+$34.97
+
+$2.44
+
+Watches
+
+$40,137.67
+
+2.6%
+
+1.3%
+
+14.60%
+
+71.92%
+
+3.66%
+
+$131.60
+
+$4.81
+
+The men's product category has a significantly higher conversion rate at the checkout stage compared to the women's
+categories. Furthermore, we observed that earrings generate higher revenue per user, despite having one of the lowest average
+order values compared to other categories. This suggests we can focus on attracting a higher volume of users to this category to
+maximize overall revenue.
+Source: GA Analytics from April 4- May 31 2025
+
+Replicate SMS performance in email marketing and
+promote higher-value products. Another focus should be
+increasing engagement and AOV in the paid social channel
+%
+
+Bounce
+
+Session
+Dur.
+
+%
+
+eCVR
+
+RPV
+
+AoV
+
+Paid Social
+
+36.1%
+
+2.85%
+
+1m 19s
+
+12.1%
+
+0.53%
+
+$0.40
+
+$76.63
+
+Direct
+
+18.2%
+
+6.42%
+
+2m 54s
+
+38.1%
+
+2.86%
+
+$2.51
+
+$87.57
+
+Organic Social
+
+10.9%
+
+2.14%
+
+1m 51s
+
+5.0%
+
+0.66%
+
+$0.55
+
+$82.62
+
+Email
+
+7.0%
+
+6.74%
+
+2m 50s
+
+6.4%
+
+1.33%
+
+$1.10
+
+$83.28
+
+Cross-network
+
+6.5%
+
+6.83%
+
+3m 51s
+
+10.1%
+
+2.41%
+
+$1.87
+
+$77.62
+
+Organic Search
+
+6.4%
+
+9.76%
+
+4m 18s
+
+9.6%
+
+2.03%
+
+$1.81
+
+$89.46
+
+SMS
+
+5.6%
+
+6.41%
+
+2m 46s
+
+6.0%
+
+1.50%
+
+$1.29
+
+$86.32
+
+Paid Search
+
+4.2%
+
+7.90%
+
+4m 28s
+
+7.3%
+
+2.48%
+
+$2.10
+
+$84.46
+
+Channel
+
+Source: GA Analytics from April 4- May 31 2025
+
+Search channels show higher session
+durations, with paid search delivering the
+highest revenue per visitor. These channels
+present a strong opportunity for further
+investment to attract more qualified traffic.
+SMS outperforms email marketing,
+suggesting we should analyze the SMS
+strategy and calls-to-action to replicate its
+success in the email channel.
+Email marketing also has a lower average
+order value compared to other channels,
+which may indicate the need to promote
+higher-priced products to our email list.
+Paid social is underperforming in terms of
+revenue per visitor, average session duration,
+and average order value. We should explore
+ways to increase AOV and improve product
+education to make this channel more
+profitable.
+
+Key Takeaways | Technical Analysis
+1.
+
+Users who entered through the homepage had the highest final conversion rate -73% higher than those who
+started their sessions on collection or product pages
+
+2.
+
+The drop-off for users who enter through the homepage is collection pages with 24% proceed to the product
+
+3.
+
+When analyzing users who entered through the collection pages, we observed a significant drop-off
+between the product page and the cart
+
+4.
+
+For users who entered through product pages, we observed a decrease in add-to-cart rate by 76%
+
+5.
+
+Improving the product page experience is essential not only for this entry point but also for strengthening
+other user journeys across the funnel
+
+6.
+
+When segmenting by device, we noticed a very high drop-off rate on the product page for both desktop and
+mobile
+
+7.
+
+We can focus on improving the homepage content and initial sections to reduce the bounce rate and
+increase average session duration, further strengthening the overall funnel
+
+8.
+
+Earrings have strong potential to generate more revenue
+
+9.
+
+Replicate SMS performance in email marketing and promote higher-value products
+
+HOW CAN WE NOMINAL BETTER
+
+Clickmap & Scroll
+Map Analysis
+
+HEATMAP INSIGHTS
+
+HP-Areas of HIGH interactivity
+100%
+
+1.
+
+21.94% of clicks occur in the
+navigation bar, making it the
+most clickable section on the
+homepage.
+
+5
+75%
+
+2.
+3.
+
+0.21% of clicks happen in the
+benefits section, indicating
+some attention to value
+propositions.
+
+4.
+
+19.78% of all clicks are on
+collection cards, with Necklaces
+and Rings capturing 63.49% of
+those clicks—highlighting
+category interest
+
+5.
+
+6.
+
+1
+
+4
+
+8.73% of visitors click within the
+hero section
+
+Only 0.65% of clicks are on
+product cards, suggesting users
+prefer browsing collections over
+selecting individual products
+right away
+
+6
+
+50%
+
+2
+
+25%
+
+3
+Hero section clicks
+
+4.65% of users click on the
+reviews section, showing strong
+interest in social proof.
+
+Source: Microsoft Clarity, Expert Evaluation
+
+Collection cards
+clicks
+
+Product cards
+clicks
+
+Reviews section
+clicks
+
+HEATMAP INSIGHTS
+
+HP-Areas of HIGH interest
+100%
+
+1.
+
+2.
+
+3.
+
+The menu bar is the most
+engaging part at the top of
+the homepage, with users
+spending nearly 60 seconds
+before scrolling down.
+
+75%
+
+1
+
+The Sakinah Collection is the
+most engaged area on the
+homepage, with users once
+again spending time
+browsing the product
+The first product collection
+cards are the second most
+visually engaging section of
+the homepage, where users
+spend a lot of time checking
+the products, but with
+relatively low click activity
+compared to the collection
+cards
+
+3
+2
+
+50%
+
+25%
+
+Hero section
+
+Source: Microsoft Clarity, Expert Evaluation
+
+First product cards
+
+Specific collection cards
+
+HEATMAP INSIGHTS
+
+HP-Areas of LOW interest
+100%
+
+1.
+
+The "Featured In" section is
+being ignored, indicating
+that users aren't engaging
+with it—nor with the benefits
+section located below.
+
+1
+
+75%
+
+50%
+
+25%
+
+Featured in section
+
+Source: Microsoft Clarity, Expert Evaluation
+
+HEATMAP INSIGHTS
+
+CP-Areas of HIGH interactivity
+100%
+
+1.
+
+6.69% of all clicks on
+collection pages occur within
+the navigation bar
+
+5
+75%
+
+2.
+
+1.27% of clicks are on
+collection filters
+
+3.
+
+2.40% of clicks are on filter
+buttons, showing users are
+more interested in refining
+product options than sorting
+or changing collections
+
+4.
+
+1.69% of clicks are on sort
+features.
+
+5.
+
+Only 22.47% of clicks are on
+product cards, meaning over
+80% of users don’t visit any
+product page from the
+collection view
+
+1
+
+50%
+
+2
+
+25%
+
+3
+
+4
+Hero section clicks
+
+Source: Microsoft Clarity, Expert Evaluation
+
+Product cards clicks
+
+HEATMAP INSIGHTS
+
+CP-Areas of HIGH interactivity
+100%
+
+1.
+
+7.66% of all clicks happen
+inside view more products
+button
+
+2.
+
+We observed a significant
+difference in product card
+CTR performance, with the
+best-performing card
+receiving 1.61% of clicks and
+the lowest only 0.03%. We’ve
+created a list ranking the
+most popular product cards
+accordingly
+
+2
+
+75%
+
+We can reorder the product
+listing so that cards with
+higher click-through rates
+appear first
+
+1
+
+50%
+
+View more product
+button clicks
+
+25%
+
+Collection cards clicks
+
+Source: Microsoft Clarity, Expert Evaluation
+
+Product cards clicks
+
+HEATMAP INSIGHTS
+
+CP-Areas of HIGH interest
+100%
+
+1.
+
+2.
+
+Above the fold is the second
+most engaged part of the
+website, with users spending
+less than 2 minutes
+interacting with filters and
+sorts
+The pagination area is the
+highest-engaged section,
+with users spending more
+time there and frequently
+clicking to view additional
+collection pages and
+explore more products
+
+2
+75%
+
+1
+
+50%
+
+25%
+
+Hero section clicks
+
+Source: Microsoft Clarity, Expert Evaluation
+
+Change pagination clicks
+
+HEATMAP INSIGHTS
+
+1.
+
+Clicks on the menu is clicked by
+
+PP-Areas of HIGH interactivity
+100%
+
+1
+
+11.49%, indicating user interest in
+exploring additional products
+
+3
+
+75%
+50%
+
+2.
+
+Interaction with upselling options
+
+4
+
+is one of the most clicked features,
+indicating strong user interest in
+adding complementary additional
+
+25%
+
+3
+
+upsells
+3.
+
+We also noticed higher
+engagement with the Palestine
+
+18%
+
+banner and the material &
+warranty sections, showing that
+users actively seek more
+information in these areas
+4.
+
+12%
+
+Additionally, users click more on
+
+2
+
+the “Perfect Combination” product
+images than on selectors or the
+“Add Bundle to Cart”
+button—indicating that visuals of
+the pieces play a key role in their
+purchase decision
+
+Hero of product page
+
+Source: Microsoft Clarity, Expert Evaluation
+
+Benefits section on
+product page
+
+Perfect Paired Pieces section
+
+HEATMAP INSIGHTS
+
+1.
+
+Clicks on the menu is clicked by
+
+PP-Areas of HIGH interactivity
+100%
+
+1
+
+11.49%, indicating user interest in
+exploring additional products
+
+75%
+50%
+
+2.
+
+Interaction with upselling options
+is one of the most clicked features,
+
+3
+
+4
+
+indicating strong user interest in
+adding complementary additional
+
+25%
+
+upsells
+3.
+
+3
+
+We also noticed higher
+engagement with the Palestine
+
+18%
+
+banner and the material &
+warranty sections, showing that
+users actively seek more
+information in these areas
+4.
+
+Additionally, users click more on
+the “Perfect Combination” product
+
+12%
+
+3
+
+2
+
+images than on selectors or the
+“Add Bundle to Cart”
+button—indicating that visuals of
+the pieces play a key role in their
+purchase decision
+
+Hero of product page
+
+Source: Microsoft Clarity, Expert Evaluation
+
+Benefits section on product page
+
+Perfect Paired Pieces section
+
+HEATMAP INSIGHTS
+
+PP-Areas of HIGH interactivity
+100%
+
+1.
+
+3.46% of users are
+interacting with FAQ section
+
+1
+
+3
+
+75%
+
+2.
+
+3.
+
+More clicks on questions
+about material authenticity,
+precautions before
+purchasing, and whether the
+jewelry can be worn in the
+bath—clearly indicating
+users have concerns about
+material quality and
+durability
+We also observed that 1.32%
+of clicks go to the reviews
+section, making it one of the
+most clicked areas on the
+product page.
+
+50%
+
+2
+25%
+
+2
+18%
+
+12%
+
+2
+
+FAQ Section
+
+Source: Microsoft Clarity, Expert Evaluation
+
+Reviews section
+
+HEATMAP INSIGHTS
+
+PP-Areas of HIGH interest
+100%
+
+1.
+
+2.
+
+The SKU selector section is
+the most engaged part of
+the product page, with
+users spending nearly 8
+minutes deciding which
+product to choose.
+We also observed high
+interaction with the
+"Perfectly Paired Pieces"
+section, indicating strong
+potential to further optimize
+this area and encourage
+more users to add product
+combinations to their cart
+
+75%
+50%
+
+25%
+
+18%
+
+1
+
+2
+12%
+
+SKU selector section
+
+Source: Microsoft Clarity, Expert Evaluation
+
+Perfect Paired Pieces section
+
+HEATMAP INSIGHTS
+
+PP - Areas of low interest
+100%
+
+1.
+
+2.
+
+3.
+
+The benefits section before
+the accordion is one of the
+least engaged areas on the
+page. Users are likely
+overlooking it due to low
+contrast, resulting in minimal
+time spent and low
+interaction with the banners.
+The least engaged section is
+the dedicated benefits area
+near the bottom of the page,
+with users spending less
+than 6 seconds on it and
+showing low scroll activity.
+
+1
+75%
+50%
+
+3
+25%
+
+18%
+
+12%
+
+2
+
+Once again, the "Featured In"
+section shows extremely low
+engagement, with users
+largely ignoring the
+magazine mentions—even
+on the product page
+Benefits section
+
+Source: Microsoft Clarity, Expert Evaluation
+
+Dedicated benefits
+section
+
+Featured in section
+
+HEATMAP INSIGHTS
+
+1.
+
+31.41% of users are clicking to
+close the cart
+
+2.
+
+27.6% of users are removing
+or reducing the quantity of
+products, while only 1.19% are
+adding more products
+
+3.
+
+CART - Areas with interactivity
+31.41%
+
+1
+
+27.6%
+
+2
+
+Only 0.60% of users interact
+with upsells in the cart
+
+3
+
+Benefits section
+
+Source: Microsoft Clarity, Expert Evaluation
+
+0.6%
+
+Key Takeaways | Heatmap Analysis
+1.
+
+High interaction with the menu: As users move further down the funnel, menu and search
+interactions increase, showing a strong intent to explore and compare options
+
+2.
+
+Interest in browsing options: Users engage more with collection cards than product cards, indicating
+a preference to explore full collections before committing to a specific product. This behavior is also
+reflected in navigation across multiple pages into collections.
+
+3.
+
+Strong engagement with the reviews section: Even located lower on the page section
+
+4.
+
+Interest in key benefits: Users frequently engage with the Palestine donation banner, material details,
+and warranty information, showing these are important decision factors
+
+5.
+
+Potential in the "Perfectly Paired Pieces" section: Users show interest in product combinations and
+spend time here, though they aren’t frequently clicking the bundle cart or SKU selectors to proceed.
+There's opportunity to optimize this section to drive more action
+
+HOW CAN WE MAKE NOMINAL
+
+Usability & Heuristic
+Analysis
+
+Our UX
+Heuristic
+Guidelines
+
+VALUE
+Is it communicating value to the user? Can we do better? Can we increase
+user motivation?
+
+RELEVANCY
+In our experience, conversion
+occurs as a result of the
+influence of five dimensions,
+which, together, answer the
+fundamental questions users
+will ask during their buying
+journey.
+
+Does the page meet user expectation – both in terms of content and design?
+How can it match what they want even more?
+
+CLARITY
+Is the content or offer on this page as clear as possible? How can we make it
+clearer, simpler?
+
+MOTIVATION
+Does the content motivate and encourage the user to take action towards the
+goal?
+
+FRICTION
+What on this page is causing doubts, hesitations and uncertainties?
+
+UX
+Heuristic
+Total Scores
+0-40
+
+40-75
+
+VALUE 72%
+➢ Our product and value proposition are not
+clear within the first 5 seconds
+➢ Users aren’t seeing our main differentiators or
+benefits right away
+
+80-100
+
+The scores are based on averages
+and help us identify where key
+opportunities are. Although the key
+areas of opportunity are in value
+and motivation, it’s important to
+“get the basics right” first.
+These scores suggest there’s some
+fundamental issues with value ,
+motivation and trust which should
+be addressed first.
+
+FRICTION 10%*
+
+MOTIVATION 56%
+
+➢ Low contrast between product badges
+
+➢ We’re not highlighting all the benefits we offer across
+
+and the product cards
+
+many pages.
+
+➢ We don't have product thumbnails or
+
+➢ Improve the upsell section on the product page and
+
+navigation arrows in the product gallery.
+
+UX heuristics
+
+CLARITY 79%
+➢ We have too many distractions—pop-ups,
+banners, and some duplicate sections on
+the homepage
+
+the cart page
+
+TRUST 57%
+➢ We can include UGC content with videos and
+animations to generate more trust
+➢ Add dedicated sections to highlight our history
+and tradition
+
+*In the case of friction the lower score, the better
+
+The lowest score in four dimensions were in the
+homepage where we will starting our work
+Research Dimension
+
+Homepage
+
+Product Page
+
+Trust
+
+60%
+
+85%
+
+87%
+
+Motivation
+
+53%
+
+60%
+
+81%
+
+Value
+
+68%
+
+76%
+
+83%
+
+Clarity
+
+72%
+
+88%
+
+85%
+
+Friction
+
+10%
+
+6.7%
+
+28%
+
+*In the case of friction the lower score, the better
+
+Benchmarks
+
+HEURISTIC INSIGHTS
+
+▷
+
+60
+
+53
+
+10
+
+TRUST
+
+MOTIVATION
+
+FRICTION
+
+Homepage
+
+Our product and value proposition
+are not clear within the first 5
+seconds (It’s important to quickly
+communicate what our product is
+and the main reason to buy from
+us)
+
+▷
+
+Users aren’t seeing our main
+differentiators or benefits right
+away
+
+▷
+
+When users first land on the page,
+they’re immediately hit with
+multiple pop-ups and distractions
+
+▷
+
+We lack strong social proof
+elements at the top of the page
+
+▷
+
+Low contrast between badges on
+product cards
+
+▷
+
+Product cards display only one
+single image
+Source: Expert heuristic analysis
+
+HEURISTIC INSIGHTS
+
+▷
+
+60
+
+53
+
+10
+
+TRUST
+
+MOTIVATION
+
+FRICTION
+
+Homepage
+
+Our product and value proposition
+are not clear within the first 5
+seconds
+
+▷
+
+Our main differentiators are not
+easily seen right away (we can
+highlight the donation program,
+ethical production, product
+quality, purpose-driven designs,
+and our outstanding customer
+service)
+
+▷
+
+When users first land on the page,
+they’re immediately hit with
+multiple pop-ups and distractions
+
+▷
+
+We lack strong social proof
+elements at the top of the page
+
+▷
+
+Low contrast between badges on
+product cards
+
+▷
+
+Product cards display only one
+single image
+Source: Expert heuristic analysis
+
+HEURISTIC INSIGHTS
+
+▷
+
+60
+
+53
+
+10
+
+TRUST
+
+MOTIVATION
+
+FRICTION
+
+Homepage
+
+Our product and value proposition
+are not clear within the first 5
+seconds
+
+▷
+
+Users aren’t seeing our main
+differentiators or benefits right
+away
+
+▷
+
+When users first land on the page,
+they’re immediately hit with
+multiple pop-ups and distractions
+
+▷
+
+We lack strong social proof
+elements at the top of the page
+
+▷
+
+Low contrast between badges on
+product cards (the badges may be
+less noticeable to users and feel
+repetitive, drawing less attention)
+
+▷
+
+Product cards display only one
+single image
+
+Source: Expert heuristic analysis
+
+HEURISTIC INSIGHTS
+
+▷
+
+60
+
+53
+
+10
+
+TRUST
+
+MOTIVATION
+
+FRICTION
+
+Homepage
+
+Our product and value proposition
+are not clear within the first 5
+seconds
+
+▷
+
+Users aren’t seeing our main
+differentiators or benefits right
+away
+
+▷
+
+When users first land on the page,
+they’re immediately hit with
+multiple pop-ups and distractions
+
+▷
+
+We lack strong social proof
+elements at the top of the page
+
+▷
+
+Low contrast between badges on
+product cards
+
+▷
+
+Product cards display only one
+image ( it's not possible to see
+these visual products from
+different angles on mobile)
+
+Source: Expert heuristic analysis
+
+HEURISTIC INSIGHTS
+
+▷
+
+60
+
+53
+
+10
+
+TRUST
+
+MOTIVATION
+
+FRICTION
+
+Homepage
+
+The first reviews section lacks
+visual impact with real images or
+UGC content (Include images and
+videos captures more attention
+and generates more interest. We
+can use our reels on Instagram)
+
+▷
+
+Some linked sections display
+limited information and have low
+CTA contrast
+
+▷
+
+The reviews section is duplicated,
+taking up unnecessary space
+
+Source: Expert heuristic analysis
+
+HEURISTIC INSIGHTS
+
+▷
+
+60
+
+53
+
+10
+
+TRUST
+
+MOTIVATION
+
+FRICTION
+
+Homepage
+
+The first reviews section lacks visual
+impact with real images or UGC
+content
+
+▷
+
+Some linked sections display
+limited information and have low
+CTA contrast (using the entire
+space just for a banner tends to be
+less noticeable and impactful than
+displaying dedicated sections with
+high-contrast CTAs)
+
+▷
+
+The reviews section is duplicated,
+taking up unnecessary space
+
+Source: Expert heuristic analysis
+
+HEURISTIC INSIGHTS
+
+▷
+
+60
+
+53
+
+10
+
+TRUST
+
+MOTIVATION
+
+FRICTION
+
+Homepage
+
+The first reviews section lacks visual
+impact with real images or UGC
+content
+
+▷
+
+Some linked sections display
+limited information and have low
+CTA contrast
+
+▷
+
+The reviews section is duplicated,
+taking up unnecessary space (We
+can focus on recreating a more
+complete review section with more
+UGC content to create greater
+impact)
+
+Source: Expert heuristic analysis
+
+HEURISTIC INSIGHTS
+
+▷
+
+60
+
+53
+
+10
+
+TRUST
+
+MOTIVATION
+
+FRICTION
+
+Collection Page
+
+There are too many product cards
+displayed per page (Keeping the
+page too long could slow down
+loading. We can add load more
+button to help users visualize less
+products combined with infinity
+scrolling)
+
+▷
+
+The hero section takes up a lot of
+space without clearly highlighting
+key benefits of this specific
+category
+
+▷
+
+Filter buttons have low contrast with
+the background
+
+▷
+
+Using hyperlinks to display
+collections doesn't draw attention
+
+▷
+
+Product cards show only one image
+and don’t include a quick view
+option
+Source: Expert heuristic analysis
+
+HEURISTIC INSIGHTS
+
+▷
+
+60
+
+53
+
+10
+
+TRUST
+
+MOTIVATION
+
+FRICTION
+
+Collection Page
+
+There are too many product cards
+displayed per page
+
+▷
+
+The hero section takes up a lot of
+space without clearly highlighting
+key benefits of this specific
+category (We can reduce the hero
+section to show products earlier or
+add more description about this
+specific collection)
+
+▷
+
+Filter buttons have low contrast with
+the background
+
+▷
+
+Using hyperlinks to display
+collections doesn't draw attention
+
+▷
+
+Product cards show only one image
+and don’t include a quick view
+option
+
+▷
+
+We are just using discount badges
+
+Source: Expert heuristic analysis
+
+HEURISTIC INSIGHTS
+
+▷
+
+60
+
+53
+
+10
+
+TRUST
+
+MOTIVATION
+
+FRICTION
+
+Collection Page
+
+There are too many product cards
+displayed per page
+
+▷
+
+The hero section takes up a lot of
+space without clearly highlighting
+key benefits of this specific
+category
+
+▷
+
+Filter buttons have low contrast
+with the background (It's difficult
+for users to clearly see the filter
+buttons, especially considering we
+have many products)
+
+▷
+
+Using hyperlinks to display
+collections doesn't draw attention
+
+▷
+
+Product cards show only one image
+and don’t include a quick view
+option
+
+▷
+
+We are just using discount badges
+
+Source: Expert heuristic analysis
+
+HEURISTIC INSIGHTS
+
+▷
+
+60
+
+53
+
+10
+
+TRUST
+
+MOTIVATION
+
+FRICTION
+
+Collection Page
+
+There are too many product cards
+displayed per page
+
+▷
+
+The hero section takes up a lot of
+space without clearly highlighting
+key benefits of this specific
+category
+
+▷
+
+Filter buttons have low contrast with
+the background
+
+▷
+
+Using hyperlinks to display
+collections doesn't draw attention
+(Using buttons or icons usually
+attracts more clicks and stands
+out more)
+
+▷
+
+Product cards show only one image
+and don’t include a quick view
+option
+
+▷
+
+We are just using discount badges
+
+Source: Expert heuristic analysis
+
+HEURISTIC INSIGHTS
+
+▷
+
+60
+
+53
+
+10
+
+TRUST
+
+MOTIVATION
+
+FRICTION
+
+Collection Page
+
+There are too many product cards
+displayed per page
+
+▷
+
+The hero section takes up a lot of
+space without clearly highlighting
+key benefits of this specific
+category
+
+▷
+
+Filter buttons have low contrast with
+the background
+
+▷
+
+Using hyperlinks to display
+collections doesn't draw attention
+
+▷
+
+Product cards show only one
+image and don’t include a quick
+view option (Displaying more
+images is essential to help users
+choose the right products avoiding
+back and forth between pages)
+
+▷
+
+We are just using discount badges
+
+Source: Expert heuristic analysis
+
+HEURISTIC INSIGHTS
+
+▷
+
+60
+
+53
+
+7
+
+TRUST
+
+MOTIVATION
+
+FRICTION
+
+Collection Page
+
+There are too many product cards
+displayed per page
+
+▷
+
+The hero section takes up a lot of
+space without clearly highlighting
+key benefits of this specific
+category
+
+▷
+
+Filter buttons have low contrast with
+the background
+
+▷
+
+Using hyperlinks to display
+collections doesn't draw attention
+
+▷
+
+Product cards show only one image
+and don’t include a quick view
+option
+
+▷
+
+We are just using discount badges
+(This doesn't highlight the
+differences —using badges like
+"New Product," "Materials," or "Low
+Stock" could be more effective)
+Source: Expert heuristic analysis
+
+HEURISTIC INSIGHTS
+
+▷
+
+60
+
+53
+
+10
+
+TRUST
+
+MOTIVATION
+
+FRICTION
+
+Product Page
+
+We’re displaying the search bar
+sticky has product page possibly
+generating distraction (In this
+stage we’re more focused to
+convert user into the current
+product)
+
+▷
+
+CTA is only available in the first fold
+
+▷
+
+It’s not clear the product benefits or
+differentials immediately visible
+
+▷
+
+The up-sell section have a confuse
+design
+
+▷
+
+Quantity option is too small and
+occupy an entire line
+
+▷
+
+Our banner about the donation to
+Palestine is overly simplified
+
+▷
+
+Benefits buttons have low contrast
+with background
+
+Source: Expert heuristic analysis
+
+HEURISTIC INSIGHTS
+
+▷
+
+55
+
+60
+
+10
+
+TRUST
+
+MOTIVATION
+
+FRICTION
+
+Product Page
+
+We’re displaying the search bar
+sticky has product page possibly
+generating distraction
+
+▷
+
+There is no sticky CTA (The A2C
+button doesn’t follow users while
+scrolling, which can distract them
+and prevent them from clearly
+seeing our CTA)
+
+▷
+
+The product benefits are not
+immediately visible
+
+▷
+
+The up-sell section has a confuse
+design
+
+▷
+
+The quantity option is too small and
+takes up an entire line
+
+▷
+
+Our banner about the donation to
+Palestine is overly simplified
+
+▷
+
+Benefits buttons have low contrast
+with background
+Source: Expert heuristic analysis
+
+HEURISTIC INSIGHTS
+
+▷
+
+60
+
+53
+
+10
+
+TRUST
+
+MOTIVATION
+
+FRICTION
+
+Product Page
+
+We’re displaying the search bar
+sticky has product page possibly
+generating distraction
+
+▷
+
+CTA is only available in the first fold
+
+▷
+
+The product benefits are not
+immediately visible (Adding
+images with benefits, badges, and
+other clear differentiators from the
+beginning is essential to persuade
+users)
+
+▷
+
+The up-sell section has a confuse
+design
+
+▷
+
+The quantity option is too small and
+takes up an entire line
+
+▷
+
+Our banner about the donation to
+Palestine is overly simplified
+
+▷
+
+Benefits buttons have low contrast
+with background
+Source: Expert heuristic analysis
+
+HEURISTIC INSIGHTS
+
+▷
+
+60
+
+53
+
+10
+
+TRUST
+
+MOTIVATION
+
+FRICTION
+
+Product Page
+
+We’re displaying the search bar
+sticky has product page possibly
+generating distraction
+
+▷
+
+CTA is only available in the first fold
+
+▷
+
+The product benefits are not
+immediately visible
+
+▷
+
+The up-sell section has a
+confusing design (We don’t have a
+well-structured section—there are
+too many options and no clear
+guidance on how or why users
+should add more products)
+
+▷
+
+The quantity option is too small and
+takes up an entire line
+
+▷
+
+Our banner about the donation to
+Palestine is overly simplified
+
+▷
+
+Benefits buttons have low contrast
+with background
+Source: Expert heuristic analysis
+
+HEURISTIC INSIGHTS
+
+▷
+
+60
+
+53
+
+10
+
+TRUST
+
+MOTIVATION
+
+FRICTION
+
+Product Page
+
+We’re displaying the search bar
+sticky has product page possibly
+generating distraction
+
+▷
+
+CTA is only available in the first fold
+
+▷
+
+The product benefits are not
+immediately visible
+
+▷
+
+The up-sell section has a confuse
+design
+
+▷
+
+The quantity selector is too small
+and takes up an entire line (We
+can use bundles and redesign the
+selectors to occupy less space and
+create a better user experience to
+increase the AOV)
+
+▷
+
+Our banner about the donation to
+Palestine is overly simplified
+
+▷
+
+Benefits buttons have low contrast
+with background
+Source: Expert heuristic analysis
+
+HEURISTIC INSIGHTS
+
+▷
+
+60
+
+53
+
+10
+
+TRUST
+
+MOTIVATION
+
+FRICTION
+
+Product Page
+
+We’re displaying the search bar
+sticky has product page possibly
+generating distraction
+
+▷
+
+CTA is only available in the first fold
+
+▷
+
+The product benefits are not
+immediately visible
+
+▷
+
+The up-sell section has a confuse
+design
+
+▷
+
+The quantity option is too small and
+takes up an entire line
+
+▷
+
+Our banner about the donation to
+Palestine is overly simplified (One
+of the most important aspects of
+our differentiators is our charity
+program, but for many users, it’s
+not clear how it works)
+
+▷
+
+Benefits buttons have low contrast
+with background
+Source: Expert heuristic analysis
+
+HEURISTIC INSIGHTS
+
+▷
+
+60
+
+53
+
+10
+
+TRUST
+
+MOTIVATION
+
+FRICTION
+
+Product Page
+
+We’re displaying the search bar
+sticky has product page possibly
+generating distraction
+
+▷
+
+CTA is only available in the first fold
+
+▷
+
+The product benefits are not
+immediately visible
+
+▷
+
+The up-sell section has a confuse
+design
+
+▷
+
+The quantity option is too small and
+takes up an entire line
+
+▷
+
+Our banner about the donation to
+Palestine is overly simplified
+
+▷
+
+Benefits buttons have low contrast
+with background (Increasing the
+chances of being less noticeable
+and clicked)
+
+Source: Expert heuristic analysis
+
+HEURISTIC INSIGHTS
+
+▷
+
+60
+
+53
+
+10
+
+TRUST
+
+MOTIVATION
+
+FRICTION
+
+Product Page
+
+No visible payment options or
+installment for high-ticket items
+(Displaying multiple payment
+options at this point helps users
+see the product as financially
+feasible)
+
+▷
+
+Reviews have low visual impact
+
+▷
+
+We don’t have many strong signs of
+urgency
+
+Source: Expert heuristic analysis
+
+HEURISTIC INSIGHTS
+
+▷
+
+60
+
+53
+
+10
+
+TRUST
+
+MOTIVATION
+
+FRICTION
+
+Product Page
+
+No visible payment options or
+installment for high-ticket items
+
+▷
+
+Reviews have low visual impact
+(Only displaying text reviews,
+without UGC content like real
+images or videos, doesn't create a
+strong impact or build trust in our
+brand)
+
+▷
+
+We don’t have many strong signs of
+urgency
+
+Source: Expert heuristic analysis
+
+HEURISTIC INSIGHTS
+
+▷
+
+60
+
+53
+
+10
+
+TRUST
+
+MOTIVATION
+
+FRICTION
+
+Product Page
+
+No visible payment options or
+installment for high-ticket items
+
+▷
+
+Reviews have low visual impact
+
+▷
+
+We are not using any urgency or
+scarcity (Our products are
+special, but we’re not displaying
+low stock badges, the number of
+products available, or recent
+purchase counts to create a sense
+of urgency and encourage quick
+action)
+
+Source: Expert heuristic analysis
+
+HEURISTIC INSIGHTS
+
+▷
+
+60
+
+53
+
+10
+
+TRUST
+
+MOTIVATION
+
+FRICTION
+
+Cart Page
+
+The progress bar does not always
+load (For some countries, the
+progress bar is not showing, and
+we can also test using discounts or
+points)
+
+▷
+
+It's unclear which size or color is
+selected, or how to change them in
+the cart
+
+▷
+
+The up-sell section has poor
+contrast and a confusing layout
+
+▷
+
+There are few up-selling options in
+the cart
+
+▷
+
+We’re only offering product upsells
+
+▷
+
+Alternative payment methods are
+not clearly presented
+
+Source: Expert heuristic analysis
+
+HEURISTIC INSIGHTS
+
+▷
+
+60
+
+53
+
+10
+
+TRUST
+
+MOTIVATION
+
+FRICTION
+
+Cart Page
+
+The progress bar does not always
+load
+
+▷
+
+It's unclear which size or color is
+selected, or how to change them in
+the cart (A good practice is to
+allow users to clearly see the
+selected SKU and change it
+directly in the cart)
+
+▷
+
+The up-sell section has poor
+contrast and a confusing layout
+
+▷
+
+There are few up-selling options in
+the cart
+
+▷
+
+We’re only offering product upsells
+
+▷
+
+Alternative payment methods are
+not clearly presented
+
+Source: Expert heuristic analysis
+
+HEURISTIC INSIGHTS
+
+▷
+
+60
+
+53
+
+10
+
+TRUST
+
+MOTIVATION
+
+FRICTION
+
+Cart Page
+
+The progress bar does not always
+load
+
+▷
+
+It's unclear which size or color is
+selected, or how to change them in
+the cart
+
+▷
+
+The up-sell section has poor
+contrast and a confusing layout
+(The price has poor contrast, weak
+design hierarchy, and the up-sell
+section occupies too little space,
+not capturing enough attention)
+
+▷
+
+There are few up-selling options in
+the cart
+
+▷
+
+We’re only offering product upsells
+
+▷
+
+Alternative payment methods are
+not clearly presented
+
+Source: Expert heuristic analysis
+
+HEURISTIC INSIGHTS
+
+▷
+
+60
+
+53
+
+10
+
+TRUST
+
+MOTIVATION
+
+FRICTION
+
+Cart Page
+
+The progress bar does not always
+load
+
+▷
+
+It's unclear which size or color is
+selected, or how to change them in
+the cart
+
+▷
+
+The up-sell section has poor
+contrast and a confusing layout
+
+▷
+
+There are few up-selling options in
+the cart (Combined with the
+carousel layout, which requires
+users to scroll horizontally to view
+other products, this makes it less
+effective for conversions)
+
+▷
+
+We’re only offering product upsells
+
+▷
+
+Alternative payment methods are
+not clearly presented
+
+Source: Expert heuristic analysis
+
+HEURISTIC INSIGHTS
+
+▷
+
+60
+
+53
+
+10
+
+TRUST
+
+MOTIVATION
+
+FRICTION
+
+Cart Page
+
+The progress bar does not always
+load
+
+▷
+
+It's unclear which size or color is
+selected, or how to change them in
+the cart
+
+▷
+
+The up-sell section has poor
+contrast and a confusing layout
+
+▷
+
+There are few up-selling options in
+the cart
+
+▷
+
+We’re only offering product upsells
+(Adding complementary products
+like gift wraps, extenders helps
+increase AOV, mainly because it's
+easy for users to add low-ticket
+up-sellings)
+
+▷
+
+Alternative payment methods are
+not clearly presented
+
+Source: Expert heuristic analysis
+
+HEURISTIC INSIGHTS
+
+▷
+
+60
+
+53
+
+10
+
+TRUST
+
+MOTIVATION
+
+FRICTION
+
+Cart Page
+
+The progress bar does not always
+load
+
+▷
+
+It's unclear which size or color is
+selected, or how to change them in
+the cart
+
+▷
+
+The up-sell section has poor
+contrast and a confusing layout
+
+▷
+
+There are few up-selling options in
+the cart
+
+▷
+
+We’re only offering product upsells
+
+▷
+
+Alternative payment methods are
+not clearly presented (Displaying
+payment options here increases
+trust and helps users visualize
+multiple payment methods,
+reducing objections related to
+flexible payments)
+
+Source: Expert heuristic analysis
+
+HEURISTIC INSIGHTS
+
+▷
+
+60
+
+53
+
+10
+
+TRUST
+
+MOTIVATION
+
+FRICTION
+
+Checkout Page
+
+There’s no clear contact
+information at this step
+(Throughout most of the website,
+we display chat, phone numbers,
+and other communication
+options—this is a critical part of
+the journey, so it's equally
+important to show this information
+here as well)
+
+▷
+
+We're not displaying additional
+upselling options here
+
+▷
+
+There's no reviews or social proof
+section at checkout to reinforce
+trust and security
+
+Source: Expert heuristic analysis
+
+HEURISTIC INSIGHTS
+
+▷
+
+60
+
+53
+
+10
+
+TRUST
+
+MOTIVATION
+
+FRICTION
+
+Checkout Page
+
+There’s no clear contact
+information at this step
+
+▷
+
+We're not displaying additional
+upselling options here (The
+checkout page is typically a great
+place to offer extra products, as
+users are more likely to complete
+their purchase at this stage)
+
+▷
+
+There's no reviews or social proof
+section at checkout to reinforce
+trust and security
+
+Source: Expert heuristic analysis
+
+HEURISTIC INSIGHTS
+
+▷
+
+60
+
+53
+
+10
+
+TRUST
+
+MOTIVATION
+
+FRICTION
+
+Checkout Page
+
+There’s no clear contact
+information at this step
+
+▷
+
+We're not displaying additional
+upselling options here
+
+▷
+
+There's no reviews or social proof
+section at checkout to reinforce
+trust and security (We can also
+include reviews, UGC content, and
+other social proof elements at the
+end of the checkout to support
+users who aren't fully confident
+yet, helping to reduce last-minute
+skepticism and purchase
+hesitation)
+
+Source: Expert heuristic analysis
+
+WHAT YOUR CUSTOMERS THINK OF NOMINAL
+
+Post-purchase
+Survey
+
+Our customer proﬁle are men aged between 35 and 54
+years old.
+What is your gender?
+
+What is your age group?
+
+We collected 284 responses in the post-purchase survey using Jotform.
+
+Almost 40% of users purchase our products thinking to gift
+someone
+Did your order contain a gift
+for someone today?
+
+Why did you choose it? What makes it meaningful to
+you/them?
+
+41% of users are highly inﬂuenced by recommendations from other
+people about our products
+Conclusions
+●
+
+It’s interesting to see that 8.1% of users
+purchased today due to discounts and
+promotions, while another 8.1% returned
+because of gifts or special occasions.
+
+●
+
+Seasonality is extremely important for us,
+and we should focus on creating
+campaigns that align with key marketing
+cycles to take full advantage.
+
+42% of users showed interest due to our intrinsic values, such as
+donations and brand origins, while 40% were drawn by our product
+quality—including design, affordability, and features
+Conclusions
+●
+
+We observed that users are highly
+engaged with our intrinsic values, which
+make the brand stand out and feel
+meaningful.
+
+●
+
+People clearly value our product
+features—especially the design and quality
+of the jewelry.
+
+●
+
+We also saw continued interest driven by
+recommendations, with nearly 6% of
+responses mentioning it.
+
+About product features - users are considering design (22%), quality
+of jewelry (18%) and price (17%) as main factors to purchase
+Conclusions
+●
+
+Durability—combined with resistance to
+tarnish, water, and breakage—is another
+extremely important factor for 17% of users.
+
+●
+
+Intrinsic values matter to 8.4% of users,
+especially ethical values and the meaning
+behind each piece.
+
+●
+
+The overall layout is also highly important
+to our users, along with the display quality
+and the use of good materials, as they’re
+looking for pieces meant for long-term use.
+
+The Palestine cause is a strong purchase driver, with 16.3% of users
+mentioning it as an incentive to complete their order
+Conclusions
+●
+
+Style, unique design, and layout persuaded
+24.6% of users to make a purchase,
+highlighting the importance of using
+high-quality images.
+
+●
+
+We also noticed concerns related to
+quality (9.6%), materials (3.6%), and
+durability (2.7%), making it essential to
+reinforce these aspects in product
+descriptions.
+
+Users are more concerned about the quality of materials (20.8%) than about
+scams or fake products, indicating strong brand trust. Material details and
+product durability aren’t fully clear (30% of users mentioning)
+Conclusions
+●
+
+Our reputation is solid, and the hesitation
+seems to come more from uncertainty
+about choosing the right product than
+from skepticism about the brand itself.
+
+●
+
+Users commonly raised concerns around
+material quality, durability, and fit & sizing.
+Additionally, 7.4% of users mentioned
+worries about allergic reactions.
+
+●
+
+It’s clear that material quality is a recurring
+concern, and we need to address this more
+clearly and consistently throughout the
+site.
+
+36.2% of users nearly abandoned their purchase due to pricing, and 16.1%
+mentioned concerns related to shipping
+Conclusions
+●
+
+Some users also mentioned difficulties in
+finding the right product (8.6%), likely due
+to challenges with selecting fit and size
+(3.2%) and questions about quality (4.7%).
+
+●
+
+We need to improve the user experience by
+helping users find the right product more
+easily and by clearly displaying
+information about materials, fit, and sizing.
+
+●
+
+Providing clear information is a more
+cost-effective solution than adjusting
+shipping policies or prices.
+
+27% of users believe that reducing pricing would be the main strategy to
+make purchasing easier, while 8% would like to see more reviews!
+Conclusions
+●
+
+We also observed several users requesting
+a wider variety of products (5.3%) or asking
+for popular items to be restocked (2.1%),
+highlighting the importance of a strong,
+well-managed catalog.
+
+●
+
+It may be worth considering targeted
+discounts for new users and optimizing our
+shipping strategy, such as adjusting the
+free shipping progress bar, to encourage
+more conversions.
+
+●
+
+Additionally, 8% of users mentioned the
+need for more visible reviews, which should
+also be taken into account.
+
+92.66% of users would recommend our products to others, highlighting the
+strength of our brand and reputation.
+Conclusions
+●
+
+Less than 8% of users gave a score below 7
+when asked if they’d recommend us, which
+confirms high overall satisfaction.
+
+●
+
+Considering how influential friend
+recommendations are in the purchase
+decision, it makes total sense to create
+strategies that encourage more referrals.
+
+●
+
+We can offer discounts, rewards, points, or
+other meaningful incentives to motivate
+users to recommend our products and
+grow our customer base.
+
+Key Takeaways | Post Purchase Analysis
+1.
+
+Gifting is a key use case: 25% of users purchase for family and 11% for friends, highlighting the importance of
+gifting-related messaging
+
+2.
+
+Strong influence from others: 41% of users are driven to buy based on recommendations, showing the power
+of word-of-mouth and social proof
+
+3.
+
+Top purchase drivers: The two main reasons users buy are our intrinsic values (donations, brand origin) and
+product quality (design, materials, price)
+
+4.
+
+Design matters most: Unique design is the primary deciding factor, reinforcing the need to display
+high-quality images and offer a wide product variety throughout the site
+
+5.
+
+Main purchase concern: 30% of users find material authenticity and durability unclear, indicating a need for
+better communication around product quality
+
+6.
+
+Price and shipping are barriers: 36.2% of users nearly abandon due to pricing, and 16.1% due to shipping,
+making these key areas to address for easing purchase decisions.
+
+HOW CAN WE MAKE NOMINAL
+
+User Testing
+Analysis
+
+~Our offer isn't clear at the beginning of the site, with some people
+thinking we're selling clothes or that it's only for a restricted audience
+
+What were your ﬁrst impressions?
+➢
+
+I don’t know what product is being
+sold
+
+➢
+
+It’s not clear what’s being sold
+
+➢
+
+Different types of jewelry are being
+sold
+
+The hero section doesn't clearly display the exact product we're selling.
+Some people think we're trying to sell clothes or only religious items at
+first glance.
+
+➢
+
+Clothing for Muslim people
+
+Other users got the impression that we're targeting a very restricted
+
+➢
+
+It’s an e-commerce site
+
+market, selling only to Muslim people.
+
+➢
+
+It’s for Muslim people
+
+➢
+
+I think it’s intended for adults
+
+Worth mentioning is that some users were able to recognize that we
+
+➢
+
+I think it’s intended for religious
+
+offer jewelry accessories.
+
+people, specifically Muslims
+➢
+
+Targeted at Arabic or Muslim
+audiences
+
+➢
+
+Very niche marketing
+
+~Users have questions regarding the authenticity of the materials and
+their composition. They would also like to see more items, learn how our
+donation program works, and read more about the company's history
+
+Is there anything missing?
+➢
+
+Is this authentic material?
+
+➢
+
+I’d like to see more items, and
+especially what they’re made of
+
+Regarding the lack of information, users would like to see more details about our
+material composition, mainly to understand whether the materials are
+authentic.
+
+➢
+
+I don’t know the shipping cost
+
+Other common questions relate to shipping costs and whether free returns are
+
+➢
+
+How does the donation work?
+
+available.
+
+➢
+
+Which charity does it support?
+
+➢
+
+Is it authentic gold?
+
+➢
+
+Are returns free, or do we have to
+pay to return an item?
+
+➢
+
+I’m not seeing any information
+about the company’s history
+
+Users also want clear guidance on how our donation program works and more
+information about our company history.
+The main goal is to better understand our purpose.
+
+~Users reported some issues and bugs on our website, primarily related to
+confusion in the hero section and the product image gallery not updating
+when different SKU selectors are chosen
+
+Are there any other issues you would
+like to tell us ?
+➢
+
+Hero section is too long to
+understand
+
+➢
+
+I didn’t realize it was a women’s
+jewelry collection based on the
+hero section
+
+➢
+
+Confused about the numbers on
+the collection pages (e.g., the
+numbers in brackets near the size)
+
+➢
+
+It’s not clear if the product image
+changes when I select a different
+color using the SKU selector
+
+Users are having trouble understanding the hero section.
+They also pointed out that it doesn’t clearly communicate that we’re selling a
+women’s jewelry collection just from the initial view of the website.
+One user mentioned confusion about the numbers on the left side of the
+collection pages, not understanding what they represent.
+However, the main UX issue reported was that the main product image in the
+gallery doesn’t change when users select a different color or material.
+
+~Provide clearer and more detailed information about the materials used,
+our charity initiatives, the history of the company, and how to distinguish
+products that are designed without speciﬁc religious symbolism
+
+What we can do to improve?
+➢
+
+Provide more information about
+materials
+
+➢
+
+Remove or delay pop-up banners
+
+➢
+
+Add more details about the
+company and its charity work
+
+➢
+
+Add a small tagline under "Nominal"
+so users understand the site's
+target audience
+
+➢
+
+Include the name and description
+of the charity
+
+➢
+
+Add more swatch images
+
+Users summarized several ways we can improve by providing more information.
+We should add more visible and detailed information about the quality and
+source of our materials.
+In particular, we need to explain our donation program more
+clearly—highlighting which institution is behind it, relevant details, and evidence
+of the impact we're making.
+Information about our company history and values. While this content exists on
+our current site, it's not easily noticeable to users.
+Removing distracting banners and adding more swatch images could also
+enhance the user experience.
+Additionally, some users suggested adding badges to products to indicate
+which ones have religious meanings and which do not.
+
+Key Takeaways | User Testing Analysis
+●
+
+Our offer isn't clear at the beginning of the site, with some people thinking we're selling clothes or
+that it's only for a restricted audience
+
+●
+
+Users pay more attention to intrusive and fast-appearing pop-up banners, reviews, social proof,
+and best-selling collections
+
+●
+
+Users have questions regarding the authenticity of the materials and their composition. They
+would also like to see more items, learn how our donation program works, and read more about
+the company's history
+
+●
+
+Users are concerned about material authenticity, the meaning behind the products, and selecting
+the correct SKU, particularly regarding language and size options
+
+●
+
+Provide clearer and more detailed information about the materials used, our charity initiatives, the
+history of the company, and how to distinguish products that are designed without specific
+religious symbolism
+
+What are other competitors doing differently from Nominal?
+
+Competitor Insights
+
+We benchmarked Nominal website to
+brands that are targeting similar
+audiences
+Competitors:
+●
+
+Mejuri
+
+●
+
+Gorjana
+
+●
+
+Ananda Soul
+
+●
+
+Zudo
+
+Categories compared:
+●
+
+Friction & UX
+
+●
+
+Display benefits and incentives
+
+●
+
+Credibility
+
+●
+
+Increase AOV Strategies
+
+●
+
+Others
+
+HEURISTIC
+INSIGHTS
+COMPETITOR
+INSIGHTS
+➢
+
+Friction & UX
+
+Less distracting pop-up
+banner with a clear close
+button (Include a clear close
+button and a click-off area
+to help users easily dismiss
+pop-up modals if they’re not
+interested)
+
+➢
+
+More filtering options,
+including material,
+availability, stone type, etc.
+
+➢
+
+Limit the number of products
+displayed per page
+
+➢
+
+Filter buttons within the
+review section
+
+Source: Expert heuristic analysis
+
+HEURISTIC
+INSIGHTS
+COMPETITOR
+INSIGHTS
+➢
+
+Friction & UX
+
+Less distracting pop-up
+banner with a clear close
+button
+
+➢
+
+More filtering options,
+including material,
+availability, stone type, etc
+(More filters help users
+navigate the wide variety of
+products by narrowing
+down to their desired
+options)
+
+➢
+
+Filter buttons within the
+review section
+
+Source: Expert heuristic analysis
+
+HEURISTIC
+INSIGHTS
+COMPETITOR
+INSIGHTS
+➢
+
+Friction & UX
+
+Less distracting pop-up
+banner with a clear close
+button
+
+➢
+
+More filtering options,
+including material,
+availability, stone type, etc.
+
+➢
+
+Filter buttons within the
+review section (These
+buttons represent
+perspectives on the reviews,
+helping users visualize key
+product characteristics and
+filter a large number of
+comments based on the
+desired angle)
+
+Source: Expert heuristic analysis
+
+HEURISTIC
+INSIGHTS
+COMPETITOR
+INSIGHTS
+➢
+
+Display beneﬁts and incentives
+
+Add product material
+information below product
+cards (Considering the
+importance of
+understanding product
+materials before navigating
+into each product, Gorjana
+includes this information
+directly on the product
+cards)
+
+➢
+
+Dedicated sections to
+highlight key benefits
+
+Source: Expert heuristic analysis
+
+HEURISTIC
+INSIGHTS
+COMPETITOR
+INSIGHTS
+➢
+
+Display beneﬁts and incentives
+
+Add product material
+information below product
+cards
+
+➢
+
+Dedicated sections to
+highlight key benefits (More
+sections highlighting the
+benefits help users
+remember why buying here
+is better than from
+competitors, increasing
+perceived value)
+
+Source: Expert heuristic analysis
+
+HEURISTIC
+INSIGHTS
+COMPETITOR
+INSIGHTS
+➢
+
+Display beneﬁts and incentives
+
+Clear incentive banner near
+the add-to-cart CTA to
+encourage buying more
+products (Displaying price
+or other incentives near
+CTAs helps users decide
+faster and usually grabs
+more attention)
+
+➢
+
+Include a comparison table
+with other regular jewelry
+brands
+
+Source: Expert heuristic analysis
+
+HEURISTIC
+INSIGHTS
+COMPETITOR
+INSIGHTS
+➢
+
+Display beneﬁts and incentives
+
+Clear incentive banner near
+the add-to-cart CTA to
+encourage buying more
+products
+
+➢
+
+Include a comparison table
+with other regular jewelry
+brands (This is a clear and
+direct way to highlight our
+benefits and justify what
+makes our product different
+from others)
+
+Source: Expert heuristic analysis
+
+HEURISTIC
+INSIGHTS
+COMPETITOR
+INSIGHTS
+➢
+
+Credibility
+
+Images showcasing
+physical stores (Adding real
+images of physical stores
+greatly boosts credibility
+and makes the brand feel
+more authentic—especially
+since these stores often
+appear upscale, which
+enhances the perceived
+value)
+
+➢
+
+Certifications proving social
+impact
+
+Source: Expert heuristic analysis
+
+HEURISTIC
+INSIGHTS
+COMPETITOR
+INSIGHTS
+➢
+
+Credibility
+
+Certifications proving social
+impact (Certifications
+showcasing awards, social
+impact, or other key
+achievements help users
+trust the brand more)
+
+Source: Expert heuristic analysis
+
+HEURISTIC
+INSIGHTS
+COMPETITOR
+INSIGHTS
+➢
+
+Increase AOV Strategies
+
+Include a "Shop the Look"
+feature to facilitate
+upselling (Instead of
+displaying separate
+products, we can show
+combined items worn by a
+model, allowing users to
+add all of them to the cart
+with one click)
+
+Source: Expert heuristic analysis
+
+HEURISTIC
+INSIGHTS
+COMPETITOR
+INSIGHTS
+➢
+
+Others
+
+Lead magnet at the bottom
+of the page (For users who
+scroll to the bottom of the
+page without deciding to
+buy, displaying a lead
+magnet to capture their
+email and retarget them
+later could be an effective
+strategy)
+
+➢
+
+Quiz page to help users find
+the best custom product
+
+Source: Expert heuristic analysis
+
+HEURISTIC
+INSIGHTS
+COMPETITOR
+INSIGHTS
+➢
+
+Others
+
+Lead magnet at the bottom
+of the page
+
+➢
+
+Quiz page to help users find
+the best custom product
+(That’s an alternative funnel
+strategy to help users filter a
+large variety of products by
+entering personal
+information—generating
+leads and creating a more
+personalized experience)
+
+Source: Expert heuristic analysis
+
+MAKING INSIGHTS ACTIONABLE
+
+Putting in all
+together
+
+Theme 1
+Problem statement: Improve the clarity and layout of the website to
+enhance the overall user experience
+Context:
+●
+
+Several pages on the website feature simplistic hero sections that lack benefits, relevant information, and clear CTAs.
+
+●
+
+Many key areas—such as upselling sections, hero banners, reviews, benefit highlights, and other dedicated
+sections—have a confusing and outdated layout.
+
+●
+
+Organizing content and improving the layout can help users quickly understand our differentiators and clarify
+
+Top strategic recommendations:
+●
+
+Test: (Collection Page) Redesign the hero section reducing blank space and high-contrast filter buttons
+
+●
+
+Test: (Product Page) Add a sticky CTA button
+
+●
+
+Test: (Home Page) Redesign the hero section to include benefits, social proof, and featured in section
+
+●
+
+Test: (Product Page) Add image thumbnails below the main product gallery image instead of dots
+
+Theme 2
+Problem statement: We’re not fully leveraging the available information
+about our products, donation program, brand history, and other key details
+Context:
+●
+
+Many users aren’t seeing all the valuable information available on the website. Key details—such as how our donation
+program works, the materials we use, and our brand story—are not clearly presented, limiting their persuasive power.
+
+●
+
+We can improve how this content is displayed to better communicate our benefits, build trust, and engage the
+community.
+
+●
+
+Considering the many persuasive assets we have, the current site does not present them clearly or visibly enough.
+Making this information more accessible and prominent would help users see greater value in our brand.
+
+Top strategic recommendations:
+●
+
+Test: (Product Page) Redesign the Palestine donation banner to include more information
+
+●
+
+Test: (Product Page & Home Page) Create a dedicated section about the donation program
+
+●
+
+Test: (Product Page) Add some FAQs to the mini accordion section
+
+●
+
+Test: (Product Page & Home Page) Create a UGC section showing real people using the product with more images
+
+Theme 3
+Problem statement: The website offers a large variety of products, but it’s
+difficult for users to quickly find the right ones
+Context:
+●
+
+We offer thousands of products, which can naturally lead to choice overload and decision fatigue
+
+●
+
+Combined with the current lack of features to help users filter, preview, and sort products efficiently, the selection
+process becomes more complex
+
+●
+
+Users laos prefer to browse and explore products before visiting individual product pages.
+
+Top strategic recommendations:
+●
+
+Test: (Collection Page) Add arrows and CTAs below each product card
+
+●
+
+Test: (Collection Page) Add category buttons with logos instead of just hyperlinks
+
+●
+
+Test: (Collection Page) Reorder the product cards based on click performance
+
+●
+
+Test: (Collection Page) Add product material information below product cards
+
+Theme 4
+Problem statement: Boost revenue and value proposition at strategic points
+Context:
+●
+
+We’re not fully leveraging upselling strategies on product and cart pages.
+
+●
+
+Some upsell sections have a poor, confusing layout and don’t present enough options to help users combine products
+effectively
+
+●
+
+This, combined with a low AOV in certain categories, highlights an opportunity to implement clearer, more strategic
+upselling to increase order value.
+
+Top "tactical" recommendations:
+●
+
+Test: (Cart) Add more product upselling options in the cart
+
+●
+
+Test: (Product Page) Redesign the Perfectly Paired Pieces upsell section
+
+●
+
+Test: (Cart) Redesign the upselling section with better contrast, design hierarchy, and clear CTAs
+
+●
+
+Test: (Cart) Add extra upselling options instead of just products
+
+Classifying insights by the testing themes
+discovered during the research
+
+TESTING THEME 1
+
+TESTING THEME 2
+
+TESTING THEME 3
+
+TESTING THEME 4
+
+Improve the clarity
+and layout of the
+website
+
+Add more detailed
+information about our
+history, values and
+product
+
+Enhance product
+findability to help
+users quickly choose
+the right item
+
+Create additional
+revenue boosters at
+strategic conversion
+points
+
+Testing bucket 1: Improve the clarity
+and layout of the website
+Test idea
+
+Priority
+
+1.
+
+(Collection Page) Redesign the hero section reducing blank space and high-contrast filter buttons
+
+High
+
+2.
+
+(Home Page) Redesign the hero section to include benefits, social proof, and featured in section
+
+High
+
+3.
+
+(Product Page) Add a sticky CTA button
+
+High
+
+4.
+
+(Product Page) Add image thumbnails below the main product gallery image instead of dots
+
+High
+
+5.
+
+(Home Page) Redesign reviews section
+
+Medium
+
+6.
+
+(Product Page) Redesign the selectors to occupy less space and have a more contrasted layout
+
+Medium
+
+7.
+
+(Product Page) Redesign the benefits buttons before the mini accordion
+
+Medium
+
+8.
+
+(Cart) Allow users to edit SKU variations in the cart
+
+Low
+
+Testing bucket 2: We’re not fully
+leveraging the available
+information
+
+Test idea
+
+Priority
+
+1.
+
+(Product Page) Redesign the Palestine donation banner to include more information
+
+High
+
+2.
+
+(Product Page) Add some FAQs to the mini accordion section
+
+High
+
+3.
+
+(Product Page) Create a UGC section showing real people using the product with more images
+
+High
+
+4.
+
+(Product Page & Home Page) Create a dedicated section about the donation program
+
+High
+
+5.
+
+(Product Page) Add urgency signs (e.g., low stock or exclusive product badges)
+
+Medium
+
+6.
+
+(Product Page & Home Page) Create a dedicated section about our history and values
+
+Medium
+
+7.
+
+(Home Page) Add an FAQ section
+
+Medium
+
+8.
+
+(Collection Page)Add product material information below product cards
+
+Medium
+
+9.
+
+(Product Page & Home Page) Add a section showing our physical store and real people working
+
+Medium
+
+10.
+
+(Product Page) Create a product comparison table
+
+Low
+
+11.
+
+(Product Page & Home Page) Add a section featuring external YouTube reviews
+
+Low
+
+12.
+
+(Checkout) Add contact information during the checkout process
+
+Low
+
+13.
+
+(Product Page) Add visible payment logo options
+
+Low
+
+Testing bucket 3: Improve the
+ﬁndability and help users select
+products
+
+Test idea
+
+Priority
+
+1.
+
+(Collection Page) Add arrows and CTAs below each product card
+
+High
+
+2.
+
+(Collection Page) Add category buttons with logos instead of just hyperlinks
+
+High
+
+3.
+
+(Collection Page) Reorder the product cards based on click performance
+
+High
+
+4.
+
+(Collection Page) Add product material information below product cards
+
+High
+
+5.
+
+(Product Page) Add shortcut buttons at the top to help users navigate the page
+
+Medium
+
+6.
+
+(Collection Page) Create a "quick view" feature on product cards
+
+Medium
+
+7.
+
+(Collection Page) Add more filtering options
+
+Medium
+
+8.
+
+(Collection Page & Home Page) Redesign the badges to have stronger contrast
+
+Medium
+
+9.
+
+(Collection Page & Home Page) Use distinct badges to reinforce product features
+
+Low
+
+10.
+
+(Others) Create a quiz funnel to suggest products for users
+
+Low
+
+Testing bucket 4: Boost revenue and
+value proposition at strategic
+points
+
+Test idea
+
+Priority
+
+1.
+
+(Cart) Add more product upselling options in the cart
+
+High
+
+2.
+
+(Product Page) Redesign the Perfectly Paired Pieces upsell section
+
+High
+
+3.
+
+(Cart) Redesign the upselling section with better contrast, design hierarchy, and clear CTAs
+
+High
+
+4.
+
+(Cart) Add extra upselling options instead of just products
+
+Medium
+
+5.
+
+(Product Page) Add bundle buttons instead of a numeric selector
+
+Medium
+
+6.
+
+(Product Page) Include a “Shop the Look” option in the product page
+
+Medium
+
+7.
+
+(Cart) Add up-selling products in the checkout
+
+Medium
+
+Journey Ahead
+
+By ﬁxing JDIs and running 3 tests per
+month testing on outlined themes our goal
+is to :
++20% INCREASE IN YOUR CONVERSION RATES IN NEXT 6 MONTHS
+
+IMPROVE EMOTIONAL RESONANCE CONNECTED WITH YOUR
+
+BRAND
+
+INCREASE USER TRUST AND BOOST CREDIBILITY
+
+A CLEAR ROADMAP FOR CONTINUOUS TESTING AND GROWTH
+
+Focusing on high-impact, easy-to-implement tests first can significantly boost the Nominal’s top-line performance.
+
+This will enable you to achieve a signiﬁcant
+impact* on your bottom-line
+
+Goal: +20% in 6 months
+
+$911,072
+
+rea
+se
+Stra AoV
+teg
+ies
+
+Inc
+
+pro
+find duct
+abi
+lity
+
+nce
+Enh
+a
+
+mo
+re d
+info etailed
+rma
+tion
+Add
+
+Cu
+*this is just rough estimation based on previous experience with other clients
+Source: WeConvert AB testing database, Own analysis
+
+clar Impro
+ity a
+v
+nd e the
+layo
+ut
+
+$759,227
+rre
+nt
+
+Monthly Revenue ($)
+
+$1,284,87
+
+Testing Roadmap - Themes
+June
+1
+
+2
+
+3
+
+July
+4
+
+5
+
+6
+
+August
+7
+
+8
+
+9
+
+10
+
+11
+
+September
+12
+
+13
+
+14
+
+15
+
+October
+16
+
+17
+
+18
+
+19
+
+November
+20
+
+21
+
+CRO Research
+
+Improve the clarity and layout (4 tests)
+
+Product Findability (4 tests)
+
+Increase AoV (4 tests)
+
+Add more detailed information (4 tests)
+
+Research
+
+Improve the
+clarity
+
+Add more detailed
+information
+
+Product Findability
+
+Increase AoV
+
+22
+
+23
+
+December
+24
+
+25
+
+26
+
+27
+
+28
+
+Testing Roadmap Tests
+July
+
+WEEKS
+
+1
+
+2
+
+3
+
+4
+
+1
+
+August
+2
+
+September
+3
+
+AB-01-PP - Create a
+sticky CTA button
+AB-02-CART- Add chain
+extender and gift box as
+up-sell
+AB-03-CP - Add
+secondary filters
+buttons
+AB-04-HP - Redesign
+the hero section
+
+◆
+
+AB-05-PP - Redesign
+the donation banner
+AB-06-CP - Reorder the
+product cards
+AB-07-CART - Redesign
+the upselling section
+
+AB-08-HP -Redesign
+reviews section
+
+Improve the
+clarity
+
+Add more detailed
+information
+
+Product Findability
+
+Increase AoV
+
+4
+
+1
+
+2
+
+3
+
+4
+
+Testing Roadmap Tests
+October
+
+WEEKS
+
+1
+
+2
+
+3
+
+4
+
+1
+
+November
+2
+
+December
+3
+
+AB-09-PP - Add image
+thumbnail
+AB-09-HP - Create a
+dedicated benefits
+section
+AB-10-CP - Redesign
+Hero section
+AB-11-CART - Add extra
+upselling options
+
+◆
+
+AB-12-PP - Redesign the
+upsell section
+AB-13-CP - Add product
+material information
+below product cards
+AB-14-PP - Add some
+FAQs to the mini
+accordion section
+AB-15-HP -Add an FAQ
+section
+Improve the
+clarity
+
+Add more detailed
+information
+
+Product Findability
+
+Increase AoV
+
+4
+
+1
+
+2
+
+3
+
+4
+
+OUR NEXT TESTS
+
+Issue: Users cannot see the
+add-to-cart button while scrolling,
+which distracts them and prevents
+them from converting
+
+NMN-PP-AB01- Create a sticky CTA
+button
+
+Test: A good practice is to make
+the add-to-cart button sticky, so
+when users scroll down the page,
+the button follows them.
+This will happen because users will
+see the Add-to-Cart button at all
+times during their journey, reducing
+friction.
+Sources:
+●
+●
+
+Heatmapss
+Heuristic Analysis
+
+ORIGINAL
+
+CHALLENGER
+
+OUR NEXT TESTS
+
+Issue: Users cannot see the
+add-to-cart button while scrolling,
+which distracts them and prevents
+them from converting
+Test: A good practice is to make
+the add-to-cart button sticky, so
+when users scroll down the page,
+the button follows them.
+This will happen because users will
+see the Add-to-Cart button at all
+times during their journey, reducing
+friction.
+Sources:
+●
+●
+
+Heatmapss
+Heuristic Analysis
+
+NMN-PP-AB01- Mid test results
+
+OUR NEXT TESTS
+
+Issue: Users are interacting less
+with the current upsell option, likely
+due to the dull layout and low
+upselling conversion rate.
+
+NMN-CART-AB02 - Add chain extender
+and gift box as up-sell
+
+This is happening because we're
+offering only a few options
+presented in a confusing design.
+Test: Offer complementary
+low-value upselling options that
+capture users’ attention and are
+easy to add to the current cart.
+Sources:
+●
+●
+●
+
+Heatmapss
+Heuristic Analysis
+User Testing
+
+ORIGINAL
+
+CHALLENGER
+
+OUR NEXT TESTS
+Issue: We have limited filter
+options, and users are spending a
+lot of time scrolling and trying to
+find products among the large
+number displayed on the collection
+pages.
+
+NMN-CP-AB03 - Add secondary ﬁlters
+buttons
+
+Test: We can add sub-filter buttons
+based on the user's purpose for
+finding jewelry, which will narrow
+down the options and make the
+search more efficient.
+Instead of displaying 40 products
+per page, we will show only 20 more
+curated and relevant products.
+Sources:
+●
+●
+●
+
+Heatmapss
+Heuristic Analysis
+Competitor Analysis
+
+ORIGINAL
+
+CHALLENGER
+
+OUR NEXT TESTS
+
+Issue: The current hero section isn’t
+clear for some users. It doesn’t
+highlight what makes us different,
+lacks social proof, a strong unique
+selling proposition, and sufficient
+contrast to guide users to take
+action.
+
+NMN-HP-AB04 - Redesign the hero
+section
+
+Test: We can redesign the hero
+section to create a more
+contrasted layout with a clear and
+impactful headline, visible social
+proof from the beginning, and
+stronger emphasis on benefits to
+help users fully understand our
+value.
+●
+●
+●
+
+Heatmapss
+Heuristic Analysis
+User Testing
+
+ORIGINAL
+
+CHALLENGER
+
+Our Immediate Next Steps to Your Success
+What
+
+Who
+
+Analytics fixes
+
+Petr
+
+Conversion Research
+
+Miguel
+
+Develop and launch quick win test
+
+Team
+
+Approve roadmap and tests
+
+Ahmad
+
+Start preparing the tests
+
+Team
+
+June
+
+July
+
+September
+
+SO THE FINAL QUESTION IS
+
+Do you agree for us to go ahead
+with the suggested roadmap and
+act upon our analysis?
+
+Any
+Questions ?
+
+Thank you .
+
+

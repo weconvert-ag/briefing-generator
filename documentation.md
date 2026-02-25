@@ -2,7 +2,7 @@
 
 ## Overview
 
-This plugin generates structured A/B test briefing layouts inside Figma. Users fill in a form panel with test details, and the plugin programmatically creates a complete briefing frame using the Figma Plugin API.
+This plugin generates structured A/B test briefing layouts inside Figma. Users fill in a form panel with test details, click "Generate with AI" to auto-fill CRO briefing content via OpenAI, then generate a complete briefing frame on the Figma canvas.
 
 The generated layout includes:
 - A navy title bar with the test name
@@ -19,7 +19,20 @@ User opens plugin
         ↓
 UI form panel (ui.html) appears
         ↓
-User fills in fields and clicks "Generate Briefing"
+User fills in test setup fields (Client, Test Name, Page, etc.)
+        ↓
+User clicks "Generate with AI"
+        ↓
+Plugin calls OpenAI Assistants API
+  → Creates thread → Sends message → Runs assistant
+  → Assistant searches client research PDF via File Search
+  → Returns structured JSON
+        ↓
+Auto-fills: Hypothesis, Problems, Proposals, Reasons Why
+        ↓
+User reviews/edits AI output, fills Metrics and URL
+        ↓
+User clicks "Generate Briefing"
         ↓
 UI sends data via parent.postMessage()
         ↓
@@ -37,20 +50,30 @@ Briefing layout appears on canvas
 ```
 Briefing Generator/
 │
-├── manifest.json       ← Plugin config (tells Figma what to load)
-├── code.js             ← Main plugin logic (layout generation)
-├── ui.html             ← Form UI panel shown inside Figma
-├── wc-logo.png         ← WeConvert logo source file
-└── documentation.md    ← This file
+├── Briefing Generator/                        ← Subfolder Figma loads from
+│   ├── manifest.json                          ← Plugin config
+│   ├── code.js                                ← Main plugin logic (synced from root)
+│   ├── ui.html                                ← Form UI (synced from root)
+│   └── wc-logo.png                            ← WeConvert logo
+│
+├── code.js                                    ← Main plugin logic (layout generation)
+├── ui.html                                    ← Form UI + AI integration (~14KB)
+├── documentation.md                           ← This file
+├── briefing-ai-assistant-generator.md         ← AI system prompt v1.1
+├── nominal-research-text.txt                  ← Extracted text from Nominal research (reference)
+├── _Nominal - CRO Research_compressed (1).pdf ← Nominal research PDF (reference)
+└── TECHLEAD-PLAN-v2.md                        ← Implementation plan (reference)
 ```
 
-> **Note:** The root-level files are copies kept in sync with the `Briefing Generator/` subfolder. Figma loads from the subfolder.
+> **Important:** Figma loads from the `Briefing Generator/` subfolder. Both `ui.html` and `code.js` must be synced between root and subfolder after any edit:
+> ```
+> cp ui.html "Briefing Generator/ui.html"
+> cp code.js "Briefing Generator/code.js"
+> ```
 
 ---
 
 # manifest.json
-
-Defines how Figma loads the plugin.
 
 ```json
 {
@@ -63,38 +86,102 @@ Defines how Figma loads the plugin.
 }
 ```
 
-Key fields:
-
-* **name** → Plugin name shown in Figma
-* **id** → Unique plugin identifier
-* **main** → Entry point JavaScript file
-* **ui** → HTML file for the form panel
-* **editorType** → Where the plugin runs
-
 ---
 
 # UI Panel (ui.html)
 
-The UI panel is a form that collects briefing data from the user. It opens when the plugin runs via `figma.showUI(__html__, { width: 380, height: 720 })`.
+A self-contained HTML file (~14KB) with all form fields, styles, and AI logic inline. No build step, no Node.js, no backend.
 
-## Form Fields
+Opens via `figma.showUI(__html__, { width: 380, height: 900 })`.
+
+## Form Sections
+
+### Section 1: Test Setup (user fills in)
 
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
-| Test Name | text input | Yes | e.g. `GE\|MENU\|AB029 – Redesign Menu` |
-| Hypothesis | textarea | Yes | The hypothesis being tested |
-| Identified Problems | textarea | No | One problem per line (bullets added automatically) |
-| What We Propose | textarea | No | One proposal per line (bullets added automatically) |
-| Reasons Why | textarea | No | Format: `Title — Explanation` (one per line) |
+| Client | dropdown | Yes | Nominal, Led Esthetics |
+| Test Name | text input | Yes | e.g. `NMN\|PP\|AB21 – Redesign Benefits` |
+| Page | dropdown | Yes | Homepage, PDP, Cart, Collection, Menu, Checkout, Other |
+| Change Description | textarea | Yes | What will be changed/tested |
+| Goal | text input | Yes | Primary metric or objective |
+| Context | textarea | No | Optional analytics insight, survey finding |
+
+### Section 2: AI Generation
+
+| Element | Description |
+|---------|-------------|
+| "Generate with AI" button | Green button, calls OpenAI Assistants API |
+| AI Status | Animated status: Creating thread → Sending message → AI analyzing → Reading response |
+
+### Section 3: AI-Generated Content (editable)
+
+| Field | Type | Auto-filled | Description |
+|-------|------|-------------|-------------|
+| Hypothesis | textarea | Yes | Single sentence: If we [change], we expect [metric] because [reason] |
+| Identified Problems | textarea | Yes | 5-6 bullets, one per line (mix of data + best practices) |
+| What We Propose | textarea | Yes | 4-6 bullets, one per line |
+| Reasons Why | textarea | Yes | 3 cognitive biases, format: `Bias — Explanation` |
+
+### Section 4: Measurement (user fills in)
+
+| Field | Type | Required | Description |
+|-------|------|----------|-------------|
 | Metric 1, 2, 3 | text inputs | No | Three KPIs to measure the test |
 | URL Rule | text input | No | URL or page where the test runs |
 
-## How Data Flows
+---
 
-1. User fills in the form and clicks **Generate Briefing**
-2. JavaScript collects all field values into a `data` object
-3. `parent.postMessage({ pluginMessage: { type: 'generate', data } }, '*')` sends the data to `code.js`
-4. Validation: Test Name and Hypothesis are required; other fields are optional
+# AI Integration (v2 — OpenAI Assistants API)
+
+## Provider: OpenAI
+- **Model:** `gpt-4o-mini`
+- **API:** Assistants API v2 (threads + runs + file search)
+- **Assistant ID:** `asst_cT0xJb13dDkKh9GEHZhXTruA`
+- **Architecture:** Frontend-only — all API calls from `ui.html` via `fetch()`
+- **Research docs:** Uploaded as PDFs in OpenAI's vector store (File Search enabled)
+
+## How It Works
+
+1. User clicks "Generate with AI"
+2. Plugin creates a new **thread** via `POST /v1/threads`
+3. Adds user input as a **message** via `POST /v1/threads/{id}/messages`
+4. Starts a **run** with the assistant via `POST /v1/threads/{id}/runs`
+5. **Polls** the run status every 1.5s until `completed`
+6. Fetches the assistant's **response** via `GET /v1/threads/{id}/messages`
+7. Parses JSON, strips any citation markers, auto-fills the 4 output fields
+8. Highlights auto-filled fields with green border (resets on user edit)
+
+## Why Assistants API (not Chat Completions)
+
+- Research PDFs live in OpenAI's vector store — no need to embed 80KB+ of text in the HTML file
+- The assistant automatically searches the correct research document based on client name
+- Adding a new client = just upload their PDF to the assistant's file store
+- `ui.html` stays small (~14KB vs ~105KB with embedded research)
+
+## System Prompt
+
+Full instructions in `briefing-ai-assistant-generator.md` (v1.1). Key features:
+- **Client Isolation Rule** — only uses the research doc matching the selected client
+- **Research Priority System** — searches research first, uses concrete data with real numbers
+- **Bullet composition rule** — identified problems always mix 3-4 data-driven + 1-2 best practice bullets
+- **No citation markers** — output is clean, ready for Figma layout
+- **Approved cognitive bias list** (9 biases)
+- **Language matching** — responds in same language as input
+
+## Clients
+
+| Client | Research Document | Status |
+|--------|-------------------|--------|
+| Nominal | CRO research deck (148 pages) — analytics, heatmaps, user testing, surveys | Active |
+| Led Esthetics | CRO research deck — uploaded to OpenAI | Active |
+
+## Cost
+
+- Model: `gpt-4o-mini` at $0.15/1M input tokens
+- Each briefing call: ~$0.003-0.005
+- 100 briefings/month: ~$0.50
+- Current credit: $5.00 (OpenAI free trial)
 
 ---
 
@@ -103,7 +190,7 @@ The UI panel is a form that collects briefing data from the user. It opens when 
 ## Entry Point
 
 ```js
-figma.showUI(__html__, { width: 380, height: 720 });
+figma.showUI(__html__, { width: 380, height: 900 });
 
 figma.ui.onmessage = async (msg) => {
   if (msg.type === 'generate') {
@@ -113,37 +200,22 @@ figma.ui.onmessage = async (msg) => {
 };
 ```
 
-The plugin shows the UI panel, waits for the user to submit the form, generates the layout, then closes.
-
 ## createBriefing(input)
 
-The main function that builds the entire layout. It receives the form data as `input`.
+Builds the entire Figma layout from form data.
 
 ### Constants
+- **Colors:** NAVY (`#123D5C`), WHITE, LIGHT_GRAY, DARK_GRAY
+- **Dimensions:** Frame 1400×900, Title bar 55px, Sidebar 300px wide
 
-* **Colors:** NAVY (`#123D5C`), WHITE, LIGHT_GRAY, DARK_GRAY
-* **Dimensions:** Frame 1400×900, Title bar 55px high, Sidebar 300px wide
-
-### Font Loading
-
-Three font styles must be loaded before creating text:
-
+### Fonts
 ```js
 await figma.loadFontAsync({ family: "Inter", style: "Regular" });
 await figma.loadFontAsync({ family: "Inter", style: "Bold" });
 await figma.loadFontAsync({ family: "Inter", style: "Semi Bold" });
 ```
 
-### Helper Functions
-
-* `createText(opts)` — Creates a text node with configurable size, color, bold, width, lineHeight
-* `addSidebarHeader(text)` — Adds a bold 9px header to the sidebar (advances cursor)
-* `addSidebarBody(text)` — Adds a regular 7.5px body text to the sidebar (advances cursor)
-* `addSidebarSemiBold(text)` — Adds a semi-bold 7.5px text to the sidebar (used for numbered reason titles)
-
 ### Layout Structure
-
-The frame is composed of these sections:
 
 ```
 ┌──────────────────────────────────────────────┐
@@ -163,88 +235,94 @@ The frame is composed of these sections:
 └──────────┴───────────────────────────────────┘
 ```
 
-### Sidebar Sections
+### Sidebar Sections (cursor-based Y positioning)
 
-All sidebar sections use a cursor-based Y positioning system (`cursorY`). Each helper function appends content and advances the cursor.
-
-1. **Test Name** — Always shown (bold header)
-2. **Hypothesis** — Always shown (header + body)
-3. **Identified Problems** — Optional. Lines split by `\n`, each prefixed with `•`
-4. **What We Proposed** — Optional. Lines split by `\n`, each prefixed with `•`
-5. **Reasons Why** — Optional. Lines split by `\n`, parsed with `—` delimiter:
-   - If line contains `—`: title (semi-bold) + explanation (body)
-   - If no `—`: just the title (semi-bold)
-   - Each reason is numbered (1., 2., 3., ...)
-6. **Measured By** — Always shown. Three metrics displayed as bullet list
-7. **URL** — Always shown
+1. **Test Name** — bold header
+2. **Hypothesis** — header + body
+3. **Identified Problems** — lines split by `\n`, prefixed with `•`
+4. **What We Proposed** — lines split by `\n`, prefixed with `•`
+5. **Reasons Why** — parsed with `—` delimiter, numbered (1., 2., 3.)
+6. **Measured By** — three metrics as bullet list
+7. **URL** — url rule
 
 ### Content Area
-
-Two columns side by side:
-- **CONTROL** — Light gray rectangle placeholder with centered text
-- **REFERENCE** — Slightly darker gray rectangle placeholder with centered text
-
-Users manually paste screenshots into these placeholders after generation.
+- **CONTROL** — light gray rectangle placeholder
+- **REFERENCE** — slightly darker gray rectangle placeholder
 
 ### WeConvert Logo
-
-A base64-encoded PNG logo is embedded directly in `code.js`. It is decoded and placed as an image fill on a rectangle at the bottom-right of the frame.
-
-```js
-const logoBytes = figma.base64Decode(logoBase64);
-const logoImage = figma.createImage(logoBytes);
-logoRect.fills = [{ type: "IMAGE", scaleMode: "FIT", imageHash: logoImage.hash }];
-```
-
-### Finalize
-
-```js
-figma.currentPage.appendChild(frame);
-figma.currentPage.selection = [frame];
-figma.viewport.scrollAndZoomIntoView([frame]);
-```
-
-The frame is added to the page, selected, and the viewport zooms to it.
+Base64-encoded PNG, decoded and placed bottom-right.
 
 ---
 
 # How to Run
 
-Inside Figma:
-
 ```
-Plugins → Development → Briefing Generator
+Figma → Plugins → Development → Briefing Generator
 ```
 
-The form panel will appear. Fill in the fields and click **Generate Briefing**.
-
-After making code changes, re-run the plugin to see updates (no reinstall needed).
+1. Select **Client** (Nominal or Led Esthetics)
+2. Fill in **Test Name**, **Page**, **Change Description**, **Goal**
+3. Optionally add **Context** and **Metrics**
+4. Click **"Generate with AI"** → wait for auto-fill (~5-15 seconds)
+5. Review/edit the AI-generated fields
+6. Click **"Generate Briefing"** → layout appears on canvas
 
 ---
 
-# Key API Concepts
+# Quick Reference
 
-## Color Values
+### Key files:
+- `ui.html` — All UI + AI logic (~14KB, self-contained)
+- `code.js` — Figma layout generation
+- `briefing-ai-assistant-generator.md` — AI system prompt v1.1 (also paste into OpenAI Assistant settings)
 
-Figma uses RGB from 0 to 1 (not 0–255):
+### To change API key:
+Edit `ui.html` line with `var OPENAI_API_KEY = '...';`
 
+### To change model:
+Edit `ui.html` line with `var OPENAI_MODEL = '...';`
+
+### To add a new client:
+1. Upload their research PDF to the OpenAI Assistant's File Search (vector store)
+2. Add `<option value="ClientName">ClientName</option>` to the `#client` select in `ui.html`
+3. Sync: `cp ui.html "Briefing Generator/ui.html"`
+
+### After any ui.html or code.js edit:
 ```
-Hex #123D5C → r: 18/255 = 0.07, g: 61/255 = 0.24, b: 92/255 = 0.36
+cp ui.html "Briefing Generator/ui.html"
+cp code.js "Briefing Generator/code.js"
 ```
 
-## Text Nodes
+### OpenAI Assistant config:
+- **Assistant ID:** `asst_cT0xJb13dDkKh9GEHZhXTruA`
+- **Dashboard:** platform.openai.com → Assistants
+- **System instructions:** copy from `briefing-ai-assistant-generator.md`
+- **File Search:** enabled, vector store with client PDFs
+- **Temperature:** 0.40
+- **Response format:** json_object
 
-Fonts must be loaded before creating text. `textAutoResize: "HEIGHT"` makes the text node auto-expand vertically to fit content.
+---
 
-## Image Embedding
+# Version History
 
-Images can be embedded as base64 strings, decoded with `figma.base64Decode()`, and applied as image fills on rectangles.
+## v1 (Initial)
+- Basic form: Test Name, Hypothesis, Problems, Proposals, Reasons, Metrics, URL
+- Manual-only — user fills all fields
+- Panel size: 380×720
 
-## UI ↔ Plugin Communication
+## v2 (Current — AI Integration)
+- Added: Client dropdown (Nominal, Led Esthetics), Page dropdown, Change Description, Goal, Context
+- Added: "Generate with AI" → OpenAI Assistants API with File Search
+- Research PDFs stored in OpenAI vector store (not embedded in HTML)
+- System prompt v1.1: client isolation, data-driven problems, mixed data + best practices
+- Panel size: 380×900
+- Self-contained: no build step, no backend, ~14KB ui.html
 
-- **UI → Plugin:** `parent.postMessage({ pluginMessage: data }, '*')`
-- **Plugin → UI:** `figma.ui.postMessage(data)` (not currently used)
-- **Plugin receives:** `figma.ui.onmessage = (msg) => { ... }`
+## Status
+
+**v2 implementation is COMPLETE.** AI generation tested and working in OpenAI Playground.
+
+**Next step:** Test end-to-end in Figma (Generate with AI → review → Generate Briefing → canvas layout).
 
 ---
 
